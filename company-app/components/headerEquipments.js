@@ -1,21 +1,18 @@
-import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
-// import TranslationButton from './TranslationButton';
-// import { translate } from '@/utils/translationService';
+import Link from 'next/link';
+
 const Navbar = () => {
   const [isEnglish, setIsEnglish] = useState(true);
-
+  const [nav, setNav] = useState(false);
+  const [color, setColor] = useState('transparent');
+  const [textColor, setTextColor] = useState('white');
   const [showLanguageDropdown, setShowLanguageDropdown] = useState(false);
 
   const toggleLanguage = () => {
     setIsEnglish(!isEnglish);
     setShowLanguageDropdown(false);
   };
-
-  const [nav, setNav] = useState(false);
-  const [color, setColor] = useState('transparent');
-  const [textColor, setTextColor] = useState('white');
 
   const handleNav = () => {
     setNav(!nav);
@@ -47,30 +44,35 @@ const Navbar = () => {
         </Link>
         <ul style={{ color: `${textColor}` }} className='hidden sm:flex'>
           <li className='p-4 hover:text-orange-300' style={{ fontFamily: 'Raleway' }}>
-            <Link href='/indexar'>الصفحة الرئيسية</Link>
+            <Link href='/'>Home</Link>
           </li>
 
+          {/* <li className='p-4 hover:text-orange-300' style={{ fontFamily: 'Raleway' }}>
+            <Link href={isEnglish ? '/indexar' : '/index'}>
+              {isEnglish ? 'Arabic' : 'English'}
+            </Link>
+          </li> */}
           <li className='p-4 hover:text-orange-300' style={{ fontFamily: 'Raleway' }}>
-            <Link href='/abouar'>معلومات عنا</Link>
+            <Link href='/about'>About</Link>
           </li>
           <li className='p-4 hover:text-orange-300' style={{ fontFamily: 'Raleway' }}>
-            <Link href='/بروفايل شركة ضخور المدينه للمقاولات.pdf'>ملف الشركة</Link>
+            <Link href='/بروفايل شركة ضخور المدينه للمقاولات.pdf'>Company Profile</Link>
           </li>
           <li className='p-4 hover:text-orange-300' style={{ fontFamily: 'Raleway' }}>
-            <Link href='/projectAr'>المشروعات</Link>
+            <Link href='/project'>Project</Link>
           </li>
           <li className='p-4 hover:text-orange-300' style={{ fontFamily: 'Raleway' }}>
-            <Link href='/EquipmentsAr'>المصادر</Link>
+            <Link href='/Equipments'>Resources</Link>
           </li>
           <li className='p-4 hover:text-orange-300' style={{ fontFamily: 'Raleway' }}>
-            <Link href='/contactAr'>اتصل بنا</Link>
+            <Link href='/contact'>Contact</Link>
           </li>
           <li className='relative p-4 group' style={{ fontFamily: 'Raleway' }}>
             <button
               onClick={() => setShowLanguageDropdown(!showLanguageDropdown)}
               className='cursor-pointer focus:outline-none'
             >
-              {isEnglish ? 'AR' : 'EN'}
+              {isEnglish ? 'EN' : 'AR'}
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 className='w-4 h-4 ml-1'
@@ -93,8 +95,8 @@ const Navbar = () => {
                     onClick={toggleLanguage}
                     className='w-full px-4 py-2 text-left hover:bg-gray-200'
                   >
-                     <Link href={isEnglish ? '/about' : '/aboutar'}>
-                    {isEnglish ? 'EN' : 'AR'}
+                     <Link href={isEnglish ? '/EquipmentsAr' : '/Equipments'}>
+                    {isEnglish ? 'AR' : 'EN'}
                     </Link>
                   </button>
                 </li>
@@ -102,8 +104,6 @@ const Navbar = () => {
             )}
           </li>
         </ul>
-
-        {/* Mobile Button */}
         <div onClick={handleNav} className='z-10 block sm:hidden'>
           {nav ? (
             <AiOutlineClose size={20} style={{ color: `${textColor}` }} />
@@ -111,7 +111,6 @@ const Navbar = () => {
             <AiOutlineMenu size={20} style={{ color: `${textColor}` }} />
           )}
         </div>
-        {/* Mobile Menu */}
         <div
           className={
             nav
@@ -121,26 +120,26 @@ const Navbar = () => {
         >
           <ul>
             <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-              <Link href='/indexar'>الصفحة الرئيسية</Link>
+              <Link href='/'>Home</Link>
             </li>
             <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-              <Link href='/aboutar'>معلومات عنا</Link>
+              <Link href='/#about'>About</Link>
             </li>
             <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-              <Link href='/projectAr'>المشروعات</Link>
+              <Link href='/project'>Project</Link>
             </li>
             <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-              <Link href='/EquipmentsAr'>المصادر</Link>
+              <Link href='/Equipments'>Resources</Link>
             </li>
             <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-              <Link href='/contactAr'>اتصل بنا</Link>
+              <Link href='/contact'>Contact</Link>
             </li>
             <li className='relative p-4 group' style={{ fontFamily: 'Raleway' }}>
             <button
               onClick={() => setShowLanguageDropdown(!showLanguageDropdown)}
               className='cursor-pointer focus:outline-none'
             >
-              {isEnglish ? 'AR' : 'EN'}
+              {isEnglish ? 'EN' : 'AR'}
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 className='w-4 h-4 ml-1'
@@ -163,8 +162,8 @@ const Navbar = () => {
                     onClick={toggleLanguage}
                     className='w-full px-4 py-2 text-left hover:bg-gray-200'
                   >
-                     <Link href={isEnglish ? '/about' : '/aboutar'}>
-                    {isEnglish ? 'EN' : 'AR'}
+                     <Link href={isEnglish ? '/EquipmentsAr' : '/'}>
+                    {isEnglish ? 'AR' : 'EN'}
                     </Link>
                   </button>
                 </li>

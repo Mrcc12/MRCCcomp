@@ -60,7 +60,7 @@ const Navbar = () => {
             <Link href='/projectAr'>المشروعات</Link>
           </li>
           <li className='p-4 hover:text-orange-300' style={{ fontFamily: 'Raleway' }}>
-            <Link href='/resourcesAr'>المصادر</Link>
+            <Link href='/EquipmentsAr'>المصادر</Link>
           </li>
           <li className='p-4 hover:text-orange-300' style={{ fontFamily: 'Raleway' }}>
             <Link href='/contactAr'>اتصل بنا</Link>
@@ -130,7 +130,7 @@ const Navbar = () => {
               <Link href='/projectAr'>المشروعات</Link>
             </li>
             <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-              <Link href='/resourcesAr'>المصادر</Link>
+              <Link href='/EquipmentsAr'>المصادر</Link>
             </li>
             <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
               <Link href='/contactAr'>اتصل بنا</Link>

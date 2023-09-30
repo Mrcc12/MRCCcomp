@@ -1,8 +1,7 @@
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
-// import TranslationButton from './TranslationButton';
-// import { translate } from '@/utils/translationService';
+
 const Navbar = () => {
   const [isEnglish, setIsEnglish] = useState(true);
 
@@ -12,6 +11,7 @@ const Navbar = () => {
     setIsEnglish(!isEnglish);
     setShowLanguageDropdown(false);
   };
+
 
   const [nav, setNav] = useState(false);
   const [color, setColor] = useState('transparent');
@@ -47,11 +47,11 @@ const Navbar = () => {
         </Link>
         <ul style={{ color: `${textColor}` }} className='hidden sm:flex'>
           <li className='p-4 hover:text-orange-300' style={{ fontFamily: 'Raleway' }}>
-            <Link href='/indexar'>الصفحة الرئيسية</Link>
+            <Link href='/'>الصفحة الرئيسية</Link>
           </li>
 
           <li className='p-4 hover:text-orange-300' style={{ fontFamily: 'Raleway' }}>
-            <Link href='/abouar'>معلومات عنا</Link>
+            <Link href='/aboutar'>معلومات عنا</Link>
           </li>
           <li className='p-4 hover:text-orange-300' style={{ fontFamily: 'Raleway' }}>
             <Link href='/بروفايل شركة ضخور المدينه للمقاولات.pdf'>ملف الشركة</Link>
@@ -93,7 +93,7 @@ const Navbar = () => {
                     onClick={toggleLanguage}
                     className='w-full px-4 py-2 text-left hover:bg-gray-200'
                   >
-                     <Link href={isEnglish ? '/about' : '/aboutar'}>
+                     <Link href={isEnglish ? '/Equipments' : '/EquipmentsAr'}>
                     {isEnglish ? 'EN' : 'AR'}
                     </Link>
                   </button>
@@ -121,7 +121,7 @@ const Navbar = () => {
         >
           <ul>
             <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-              <Link href='/indexar'>الصفحة الرئيسية</Link>
+              <Link href='/'>الصفحة الرئيسية</Link>
             </li>
             <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
               <Link href='/aboutar'>معلومات عنا</Link>
@@ -163,7 +163,7 @@ const Navbar = () => {
                     onClick={toggleLanguage}
                     className='w-full px-4 py-2 text-left hover:bg-gray-200'
                   >
-                     <Link href={isEnglish ? '/about' : '/aboutar'}>
+                     <Link href={isEnglish ? '/' : '/indexar'}>
                     {isEnglish ? 'EN' : 'AR'}
                     </Link>
                   </button>

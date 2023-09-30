@@ -39,10 +39,10 @@ const Home = () => {
     height: '100vh',
     backgroundImage: `url('${currentImage}')`,
     backgroundSize: 'cover',
-    backgroundPosition: 'center',
+    backgroundPosition: `${activeIndex * 100}% center`, // Move the image based on activeIndex
     transformStyle: 'preserve-3d', // Add 3D effect
     perspective: '1000px', // Adjust the perspective value as needed
-    transition: 'background-image 0.1s', // Update the background image smoothly
+    transition: 'background-image 0.5s, background-position 0.5s', // Update the background image and position smoothly
     zIndex: 0, // Ensure that other content is displayed above the background
   };
 

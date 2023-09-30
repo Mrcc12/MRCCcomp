@@ -59,8 +59,8 @@ const Navbar = () => {
           <li className='p-4 hover:text-orange-300' style={{    fontFamily: 'Raleway'}}>
             <Link href='/project'>Project</Link>
           </li>
-          <li className='p-4 hover:text-orange-300' style={{    fontFamily: 'Raleway'}}>
-            <Link href='/resources'>Resources</Link>
+          <li className='p-4 hover:text-orange-300' style={{ fontFamily: 'Raleway' }}>
+            <Link href='/Equipments'>Resources</Link>
           </li>
           <li className='p-4 hover:text-orange-300' style={{    fontFamily: 'Raleway'}}>
             <Link href='/contact'>Contact</Link>
@@ -130,7 +130,7 @@ const Navbar = () => {
             <Link href='/project'>project</Link>
             </li>
             <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-            <Link href='/resources'>resources</Link>
+            <Link href='/Equipments'>resources</Link>
             </li>
             <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
               <Link href='/contact'>Contact</Link>

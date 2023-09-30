@@ -1,5 +1,5 @@
-import Footer from "@/components/footer";
-import Navbar from "@/components/headerEquipments";
+import Footer from "@/components/footerar";
+import Navbar from "@/components/headerEquipmentsAr";
 import styles from "../styles/equipments.module.css";
 import React, { useEffect, useState } from 'react';
 
@@ -18,7 +18,7 @@ const Equipmentspage = () => {
     left: 0,
     width: "100%",
     height: "500px",
-    backgroundColor: "rgba(0, 0, 0, 0.5)", // Adjust the opacity as needed
+    backgroundColor: "rgba(0, 0, 0, 0.5)", // ضبط الشفافية حسب الحاجة
   };
   return (
     <>
@@ -28,7 +28,7 @@ const Equipmentspage = () => {
           <div style={overlayStyle}></div>
           <div className={styles.textABOUT}>
             {/* <h3 className='texth1'>WHO WE ARE</h3> */}
-            <h1 className={styles.textpABOUT}>OUR EQUIPMENTS</h1>
+            <h1 className={styles.textpABOUT}>معداتنا</h1>
           </div>
         </section>
         <div className={styles.containerorganization}>
@@ -50,116 +50,112 @@ const Equipmentspage = () => {
               </div>
             </div>
           </div>
-          <p className={styles.title}>Equipments</p>
+          <p className={styles.title}>المعدات</p>
         </div>
         <section className={styles.sectionTable}>
-
           <div className={styles.divTable}>
             <div className={styles.divTable2}>
               <div className={styles.container}>
-
                 <div className={styles.alltabel}>
                   <table className={styles.tablel}>
                     <thead className={styles.thead}>
                       <tr className={styles.tr}>
                         <th className={`${styles.th} wpdt-fs-000018 wpdt-bc-0274BE wpdt-tc-FFFFFF`}>
-                          No.
+                          رقم
                         </th>
                         <th className={`${styles.thd} wpdt-fs-000018 wpdt-bc-0274BE wpdt-tc-FFFFFF`}>
-                          Description
+                          الوصف
                         </th>
                         <th className={`${styles.th} wpdt-fs-000018 wpdt-bc-0274BE wpdt-tc-FFFFFF`}>
-                          Quantity
+                          الكمية
                         </th>
                       </tr>
                     </thead>
                     <tbody className={styles.tbody}>
                       <tr className={`${styles.row3_even}`}>
                         <td className={styles.td}>01</td>
-                        <td className={styles.td}>Crane 100 tons</td>
+                        <td className={styles.td}>كرين 100 طن</td>
                         <td className={styles.td}>1</td>
                       </tr>
                       <tr className={`${styles.row3_odd}`}>
                         <td className={styles.td}>02</td>
-                        <td className={styles.td}>Crane 70 tons</td>
+                        <td className={styles.td}>كرين 70 طن</td>
                         <td className={styles.td}>1</td>
                       </tr>
                       <tr className={`${styles.row3_even}`}>
                         <td className={styles.td}>03</td>
-                        <td className={styles.td}>Crane 50 tons</td>
+                        <td className={styles.td}>كرين 50 طن</td>
                         <td className={styles.td}>4</td>
                       </tr>
                       <tr className={`${styles.row3_odd}`}>
                         <td className={styles.td}>04</td>
-                        <td className={styles.td}>Crane 25 tons</td>
+                        <td className={styles.td}>كرين 25 طن</td>
                         <td className={styles.td}>1</td>
                       </tr>
                       <tr className={`${styles.row3_even}`}>
                         <td className={styles.td}>06</td>
-                        <td className={styles.td}>Excavator Loader</td>
+                        <td className={styles.td}>شيول حفار</td>
                         <td className={styles.td}>7</td>
                       </tr>
                       <tr className={`${styles.row3_odd}`}>
                         <td className={styles.td}>05</td>
-                        <td className={styles.td}>Backhoe Excavator</td>
+                        <td className={styles.td}>بوكلين حفار و دقاق</td>
                         <td className={styles.td}>8</td>
                       </tr>
                       <tr className={`${styles.row3_even}`}>
                         <td className={styles.td}>07</td>
-                        <td className={styles.td}>Loader</td>
+                        <td className={styles.td}>شيول لودر</td>
                         <td className={styles.td}>3</td>
                       </tr>
                       <tr className={`${styles.row3_odd}`}>
                         <td className={styles.td}>08</td>
-                        <td className={styles.td}>Dump Truck</td>
+                        <td className={styles.td}>قلاب</td>
                         <td className={styles.td}>3</td>
                       </tr>
                       <tr className={`${styles.row3_even}`}>
                         <td className={styles.td}>09</td>
-                        <td className={styles.td}>Asphalt Cutter</td>
+                        <td className={styles.td}>قصاصه اسفلت</td>
                         <td className={styles.td}>5</td>
                       </tr>
                       <tr className={`${styles.row3_odd}`}>
                         <td className={styles.td}>10</td>
-                        <td className={styles.td}>Asphalt Paver</td>
+                        <td className={styles.td}>فراده اسفلت</td>
                         <td className={styles.td}>2</td>
                       </tr>
                       <tr className={`${styles.row3_even}`}>
                         <td className={styles.td}>11</td>
-                        <td className={styles.td}>Various Rollers</td>
+                        <td className={styles.td}>رصاصه مختلفه</td>
                         <td className={styles.td}>7</td>
                       </tr>
                       <tr className={`${styles.row3_odd}`}>
                         <td className={styles.td}>12</td>
-                        <td className={styles.td}>Soil Compactor</td>
+                        <td className={styles.td}>رجاج تربة</td>
                         <td className={styles.td}>2</td>
                       </tr>
                       <tr className={`${styles.row3_even}`}>
                         <td className={styles.td}>13</td>
-                        <td className={styles.td}>Water Tank with a capacity of 14 m³</td>
+                        <td className={styles.td}>تانك مياه سعة 14 م3</td>
                         <td className={styles.td}>1</td>
                       </tr>
                     </tbody>
-
                   </table>
                   <style id="wpdt-custom-style-1">
                     {`
-    .wpdt-fs-000018 {
-      font-size: 30px !important;
-    }
-    .wpdt-bc-0274BE {
-      background-color: #fcc236 !important;
-    }
-    .wpdt-tc-FFFFFF {
-      color: #FFFFFF !important;
-    }
-  `}
+                    .wpdt-fs-000018 {
+                      font-size: 30px !important;
+                    }
+                    .wpdt-bc-0274BE {
+                      background-color: #fcc236 !important;
+                    }
+                    .wpdt-tc-FFFFFF {
+                      color: #FFFFFF !important;
+                    }
+                  `}
                   </style>
                 </div>
               </div>
             </div>
           </div>
-
         </section>
 
         <div className={styles.containerorganization}>
@@ -181,7 +177,7 @@ const Equipmentspage = () => {
               </div>
             </div>
           </div>
-          <p className={styles.title}>Gallary</p>
+          <p className={styles.title}>المعرض</p>
         </div>
         <section className={styles.gallary}>
 
@@ -272,7 +268,6 @@ const Equipmentspage = () => {
           {/* Add more images as needed */}
         </section>
       </main>
-
       <Footer style={{ flexShrink: 0 }} />
     </>
   );

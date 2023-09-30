@@ -4,13 +4,14 @@
     height: 500px;
     position: 'relative',
 }
+
 /* .weare1{
     background-image: url('https://images-ext-1.discordapp.net/external/ektm-aHLm-JyuwVprlaZLQuQIn7TuMtchRcDkjTrXcU/%3Fw%3D996%26t%3Dst%3D1695240984~exp%3D1695241584~hmac%3Da111e70b7bb926499385dff1daf5831f840e5e59b94b26a6c970d0e930d7b8d9/https/img.freepik.com/free-photo/close-up-construction-site-excavator_1112-1223.jpg?width=1040&height=669');
     background-size: cover;
     height: 500px;
 
 } */
-.textABOUT{
+.textABOUT {
     position: absolute;
     top: 36%;
     left: 50%;
@@ -18,25 +19,28 @@
     text-align: center;
     color: rgb(241, 235, 235);
 }
-.textpABOUT{
+
+.textpABOUT {
     color: #fdfdfd;
     font-size: 40px;
     font-weight: 800;
     line-height: 55px;
-  
+
     font-family: 'Raleway', sans-serif;
     font-variant-ligatures: common-ligatures;
     margin-bottom: 0;
 }
-.title{
+
+.title {
     color: #fcc236;
     font-size: 35px;
     font-weight: 600;
     /* line-height: 55px; */
-  
+
     font-family: 'Raleway', sans-serif;
     font-variant-ligatures: common-ligatures;
 }
+
 .weare {
     display: flex;
     justify-content: space-between;
@@ -49,15 +53,20 @@
     margin: 30px 30px 0 0;
 
     width: 100%;
-    max-height: 70vh; /* Set a maximum height for the image */
-    object-fit: cover; /* Maintain aspect ratio while covering the container */
+    max-height: 70vh;
+    /* Set a maximum height for the image */
+    object-fit: cover;
+    /* Maintain aspect ratio while covering the container */
 }
 
 @media (max-width: 375px) {
     .imgabout {
-        width: 100% !important; /* Add !important to ensure this rule takes precedence */
-        height: auto; /* Allow the image to adjust its height proportionally */
-        object-fit: contain; /* Maintain aspect ratio while fitting within the container */
+        width: 100% !important;
+        /* Add !important to ensure this rule takes precedence */
+        height: auto;
+        /* Allow the image to adjust its height proportionally */
+        object-fit: contain;
+        /* Maintain aspect ratio while fitting within the container */
     }
 }
 
@@ -65,7 +74,8 @@
 
 .divabout {
     display: flex;
-    flex-direction: column-reverse; /* Stack image below text on smaller screens */
+    flex-direction: column-reverse;
+    /* Stack image below text on smaller screens */
     align-items: center;
     text-align: center;
     color: rgb(241, 235, 235);
@@ -74,14 +84,16 @@
 
 @media (min-width: 800px) {
     .divabout {
-        flex-direction: row; /* Display image and text side by side on larger screens */
+        flex-direction: row;
+        /* Display image and text side by side on larger screens */
         justify-content: center;
         align-items: flex-start;
     }
 
     .divaboutimg {
         width: auto;
-        max-width: 50%; /* Adjust the image width for larger screens */
+        max-width: 50%;
+        /* Adjust the image width for larger screens */
     }
 }
 
@@ -89,7 +101,7 @@
 
 
 
-.sectionTable{
+.sectionTable {
     padding: 10px 0px 65px 0px;
     position: relative;
     display: block;
@@ -107,41 +119,47 @@
     
     
 } */
-.alltabel{
+.alltabel {
     width: 100%;
     position: relative;
 
 }
+
 .tablel {
-    
-    border-spacing: 0px;
+
+    box-sizing: border-box;
+    border: 1px #eee solid;
     font-size: inherit;
     display: table;
     background-color: transparent;
     border-collapse: collapse;
-  
+
     clear: both;
     margin: auto;
-    width: 70%; /* Adjust the width to your desired value, e.g., 80% or 800px */
+    width: 70%;
+    /* Adjust the width to your desired value, e.g., 80% or 800px */
     table-layout: auto;
     overflow: auto;
     text-align: center;
 }
 
-.thead{
+.thead {
     display: table-header-group;
     vertical-align: middle;
-    border-color: inherit;
+
     border-collapse: collapse;
-    border-spacing: 0px;
+
+
 
 }
-.tr{
+
+.tr {
     display: table-row;
     vertical-align: inherit;
     border-color: inherit;
 }
-.container{
+
+.container {
     display: flex;
     position: relative;
     width: 100%;
@@ -153,7 +171,8 @@
 
 
 }
-.containertext{
+
+.containertext {
     display: flex;
     flex-direction: column;
     /* width: 40%; */
@@ -161,17 +180,37 @@
 
 
 }
+
 @media (min-width: 800px) {
     .divabout {
-        flex-direction: row; /* Display image and text side by side on larger screens */
+        flex-direction: row;
+        /* Display image and text side by side on larger screens */
         justify-content: center;
         align-items: flex-start;
     }
 
     .containertext {
         width: auto;
-        max-width: 40%; /* Adjust the image width for larger screens */
+        max-width: 40%;
+        /* Adjust the image width for larger screens */
     }
+
+    .gallary {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        width: 90%;
+        margin: 0 0 100px 90px;
+      }
+      
+      .gallaryImg {
+        flex-basis: calc(20.20% - 20px);
+        /* 33.33% width for each image with 20px gap */
+        width: 10%; /* Adjust this percentage to make the images smaller */
+        height: 250px;
+        border-radius: 10%;
+      }
+      
 }
 
 .containerorganization {
@@ -181,26 +220,112 @@
     justify-content: center;
     text-align: center;
     margin: 50px;
-  }
+}
 
-  .divorganization {
+.divorganization {
     border: 3px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
     /* margin: 100px; */
     width: 90%;
-    height: 50%; /* Adjust the height as needed */
-  }
-  .text{
-    font-size: 0.9rem ;
+    height: 50%;
+    /* Adjust the height as needed */
+}
+
+.text {
+    font-size: 0.9rem;
     font-family: 'Raleway';
 
 }
+
 .imgorganization {
     max-width: 100%;
     max-height: 100%;
     /* Add any additional styling for the image here */
-  }
+}
 
 
+.th {
+
+
+    cursor: default;
+    background-color: #eee;
+    white-space: normal;
+    font-weight: 400;
+    background-image: none !important;
+    box-shadow: none;
+    text-shadow: none;
+    border: 1px #c1bebe solid;
+    height: 22px;
+    empty-cells: show;
+    line-height: normal;
+    padding: 10px;
+    vertical-align: middle;
+    text-align: center;
+    overflow: hidden;
+    word-break: normal;
+}
+
+.thd {
+    cursor: default;
+    background-color: #eee;
+    white-space: normal;
+    font-weight: 400;
+    background-image: none !important;
+    box-shadow: none;
+    text-shadow: none;
+    border: 1px #c1bebe solid;
+    height: 22px;
+    empty-cells: show;
+    line-height: normal;
+    padding: 10px;
+    vertical-align: middle;
+    text-align: center;
+    overflow: hidden;
+    word-break: normal;
+    width: 78.571428571429%;
+    padding: 10px;
+
+}
+
+.tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+
+.title {
+    font-size: 24px;
+    /* Adjust the font size as needed */
+    /* Adjust the spacing as needed */
+}
+
+.iconContainer {
+    margin: 40px 0;
+}
+
+.row3_odd {
+    padding: 50px;
+    background-color: #eee;
+}
+
+.td {
+    padding: 10px;
+    border: 1px #c1bebe solid;
+}
+
+.gallary {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* width: 90%;
+    margin:0 0 100px 120px; */
+}
+
+.gallaryImg {
+    /* width: 20%;
+    height: 250px; */
+    border-radius: 10%;
+}

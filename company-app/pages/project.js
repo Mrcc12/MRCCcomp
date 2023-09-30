@@ -112,7 +112,7 @@ const Projectpage = () => {
           <div style={overlayStyle}></div>
           <div className={styles.textABOUT}>
             {/* <h3 className='texth1'>WHO WE ARE</h3> */}
-            <h1 className={styles.textpABOUT}>OUR PROJECT</h1>
+            <h1 className={styles.textpABOUT}>OUR PROJECTS</h1>
           </div>
         </section>
 
@@ -135,9 +135,9 @@ const Projectpage = () => {
               </div>
             </div>
           </div>
-          {/* <p className={styles.title}>OVERVIEW</p> */}
+          <p className={styles.title}>PROJECTS</p>
         </div>
-
+        
         <div style={{ padding: "50px" }}>
           <div id="about" className="flex items-center justify-center">
             <div className="grid grid-cols-1 gap-20 lg:grid-cols-3">

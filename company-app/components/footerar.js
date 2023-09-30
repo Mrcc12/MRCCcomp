@@ -33,6 +33,13 @@ function Footer() {
           <ul>
             <p className="pb-6 text-3xl font-bold text-white-800">
               <span className="text-white">MRCC</span>
+              <img
+            className=""
+            src="https://alhajry-overseas.com.sa/wp-content/uploads/2020/01/Kingdom-of-Saudi-Arabia.jpg"
+            alt="Image 4"
+            style={{width:'90px',height:'60px'}}
+
+          />
             </p>
             <div className="flex gap-6 pb-5" >
               <FaInstagram className="text-2xl cursor-pointer hover:text-yellow-600" style={{ color: 'white' }} />

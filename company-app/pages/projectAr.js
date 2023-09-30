@@ -135,8 +135,9 @@ const Projectpage = () => {
               </div>
             </div>
           </div>
+          <p className={styles.title}>مشاريعنا</p>
         </div>
-
+        
         <div style={{ padding: "50px" }}>
           <div id="about" className="flex items-center justify-center">
             <div className="grid grid-cols-1 gap-20 lg:grid-cols-3">
