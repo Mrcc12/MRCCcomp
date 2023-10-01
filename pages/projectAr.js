@@ -5,7 +5,7 @@ import styles from "../styles/project.module.css";
 
 const teamMembers = [
   {
-    name: "الاسم: تصريف الفيضانات ومنع مخاطرها في العيونة والجبيلية.",
+    name: "الاسم: تصريف الفيضانات ومنع مخاطرها في العيينة والجبيلية.",
     major:
       "الموقع: منطقة الحدود الشمالية.",
     image:
@@ -14,7 +14,7 @@ const teamMembers = [
   {
     name: "تنفيذ مشاريع مياه المجموعة 7/3 في منطقة الحدود الشمالية",
     major:
-      "الموقع: أمانة العينة وبلدية الجبيلة.",
+      "الموقع: أمانة العيينة وبلدية الجبيلة.",
     image:
       "/water.jpg",
   },
@@ -112,7 +112,7 @@ const Projectpage = () => {
           <div style={overlayStyle}></div>
           <div className={styles.textABOUT}>
             {/* <h3 className='texth1'>WHO WE ARE</h3> */}
-            <h1 className={styles.textpABOUT}>مشاريعنا</h1>
+            <h1 className={styles.textpABOUT}>المشاريع</h1>
           </div>
         </section>
 

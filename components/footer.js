@@ -70,7 +70,7 @@ function Footer() {
           </ul>
         </div>
 
-        <div className="p-5 imgfooter" style={{ zIndex: 2,  }}>
+        {/* <div className="p-5 imgfooter" style={{ zIndex: 2,  }}>
         <p className="pb-4 text-2xl font-bold text-white">Galary</p>
           <div className="grid grid-cols-3 gap-4">
           <img
@@ -116,7 +116,7 @@ function Footer() {
           />
 
           </div>
-        </div>
+        </div> */}
 
 
         {/* Contact Info Section */}

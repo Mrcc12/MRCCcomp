@@ -28,7 +28,7 @@ const Equipmentspage = () => {
           <div style={overlayStyle}></div>
           <div className={styles.textABOUT}>
             {/* <h3 className='texth1'>WHO WE ARE</h3> */}
-            <h1 className={styles.textpABOUT}>معداتنا</h1>
+            <h1 className={styles.textpABOUT}>المعدات</h1>
           </div>
         </section>
         <div className={styles.containerorganization}>
@@ -50,7 +50,7 @@ const Equipmentspage = () => {
               </div>
             </div>
           </div>
-          <p className={styles.title}>المعدات</p>
+          <p className={styles.title}>معادتنا</p>
         </div>
         <section className={styles.sectionTable}>
           <div className={styles.divTable}>

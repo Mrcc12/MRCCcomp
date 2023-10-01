@@ -20,7 +20,7 @@ const About = () => {
         <section className={styles.aboutbackground}>
           <div style={overlayStyle}></div>
           <div className={styles.textABOUT}>
-            <h1 className={styles.textpABOUT}>من نحن</h1>
+            <h1 className={styles.textpABOUT}>نبذة تعريفية عن الشركة</h1>
           </div>
         </section>
 

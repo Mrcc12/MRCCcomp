@@ -83,6 +83,7 @@
         width: auto;
         max-width: 50%; /* Adjust the image width for larger screens */
     }
+
 }
 
 
@@ -110,6 +111,91 @@
         width: auto;
         max-width: 40%; /* Adjust the image width for larger screens */
     }
+    .title__line5 {
+        color: #1f2d30;
+        display: inline-block;
+        font-family: Open Sans;
+        font-weight: 900;
+        font-size: 1.8rem;
+        /* line-height: 20px; */
+        padding-bottom: 18px;
+        position: relative;
+        text-transform: uppercase;
+    }
+    
+    .htc__contact__innerp {
+        margin-top: 37px;
+        width: 76%;
+        font-family: 'Open Sans', sans-serif;
+        color: #606060;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    
+    
+    .htc__address__container {
+        display: flex;
+        margin-top: 50px;
+        flex-wrap: wrap;
+        gap: 80px;
+        padding-top: 30px ;
+    
+    }
+    .title__line5::before {
+        background: #908d8d none repeat scroll 0 0;
+        bottom: 0;
+        content: "";
+        height: 1px;
+        left: 0;
+        position: absolute;
+        width: 100%;
+    }
+    .map__contacts {
+        margin-top: 50px;
+    }
+    
+    .ct__address {
+        display: flex;
+    }
+    
+    .ct__address__icon {
+        margin-right: 18px;
+        width: 50px;
+    }
+    
+    .ct__address__icon_i {
+        /* border: 1px solid #696969; */
+        border-radius: 100%;
+        color: #FCC236;
+        font-size: 10px;
+        height: 40px;
+        /* line-height: 47px; */
+        /* text-align: center; */
+        width: 40px;
+        /* display: inline-block; */
+        /* font: normal normal normal 14px/1 'Material-Design-Iconic-Font'; */
+        /* font-size: inherit; */
+        /* text-rendering: auto; */
+        /* -webkit-font-smoothing: antialiased; */
+        /* -moz-osx-font-smoothing: grayscale; */
+    }
+    
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 80px;
+        padding: 70px;
+    }
+    .row2{
+        
+            /* display: flex; */
+            flex-wrap: wrap;
+            margin: 80px;
+            padding: 70px;
+        }
+    
+    
 }
 
 
@@ -186,7 +272,7 @@ padding: 80px;
 
 .htc__contact__innerp {
     margin-top: 37px;
-    width: 76%;
+    /* width: 76%; */
     font-family: 'Open Sans', sans-serif;
     color: #606060;
     font-weight: 400;
@@ -194,17 +280,7 @@ padding: 80px;
     line-height: 24px;
 }
 
-/* p {
-    font-family: 'Open Sans', sans-serif;
-    color: #606060;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-} */
-/* @media (max-width: 767px)
-{.bl__comment__meta, .bl__form__inner, .htc__contact__wrap, .htc__counterup__wrap, .brand__list, .single__cl__form, .htc__address__container, .single-contact-inner, .htc__pro__desc__container, .htc__ser__dtl__inner {
-    display: block;}
-} */
+
 .htc__address__container {
     display: flex;
     margin-top: 50px;
@@ -220,7 +296,7 @@ padding: 80px;
     height: 1px;
     left: 0;
     position: absolute;
-    width: 100%;
+    /* width: 100%; */
 }
 .map__contacts {
     margin-top: 50px;
@@ -231,8 +307,8 @@ padding: 80px;
 }
 
 .ct__address__icon {
-    margin-right: 18px;
-    width: 50px;
+    /* margin-right: 18px;
+    width: 50px; */
 }
 
 .ct__address__icon_i {
@@ -243,7 +319,7 @@ padding: 80px;
     height: 40px;
     /* line-height: 47px; */
     /* text-align: center; */
-    width: 40px;
+    /* width: 40px; */
     /* display: inline-block; */
     /* font: normal normal normal 14px/1 'Material-Design-Iconic-Font'; */
     /* font-size: inherit; */
@@ -255,14 +331,14 @@ padding: 80px;
 .row {
     display: flex;
     flex-wrap: wrap;
-    margin: 80px;
+    /* margin: 80px; */
     padding: 70px;
 }
 .row2{
     
         /* display: flex; */
         flex-wrap: wrap;
-        margin: 80px;
+        /* margin: 80px; */
         padding: 70px;
     }
 

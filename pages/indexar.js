@@ -55,7 +55,7 @@ const Home = () => {
       <main >
         <section id='homesection'style={backgroundImageStyle} >
           <div style={overlayStyle}></div>
-          <div className='text' >
+          <div className='textAr' >
             <h3 className='texth1'>منذ عام 2002</h3>
             <h1 className='textp'>نحن نبني الثقة</h1>
             <p className='p2'>نحنن هنا لتلبية احتياجاتك في عالم الإنشاءات والعقارات</p>

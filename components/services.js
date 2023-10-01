@@ -33,7 +33,7 @@ const teamMembers = [
     {
         name: 'Underground Electrical ,lighting , Telephone , Lines.',
         major: 'Installation and maintenance of electrical systems and lighting solutions.',
-        image: 'https://img.freepik.com/free-photo/male-electrician-works-switchboard-with-electrical-connecting-cable_169016-15086.jpg?size=626&ext=jpg&ga=GA1.1.1442964426.1687759231&semt=ais',
+        image: 'https://i.pinimg.com/564x/b5/98/f2/b598f2e195380475eb57d40484f28fbd.jpg',
 
     },
     {

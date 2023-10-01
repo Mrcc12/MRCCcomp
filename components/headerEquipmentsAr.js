@@ -47,7 +47,7 @@ const Navbar = () => {
         </Link>
         <ul style={{ color: `${textColor}` }} className='hidden sm:flex'>
           <li className='p-4 hover:text-orange-300' style={{ fontFamily: 'Raleway' }}>
-            <Link href='/'>الصفحة الرئيسية</Link>
+            <Link href='/indexar'>الصفحة الرئيسية</Link>
           </li>
 
           <li className='p-4 hover:text-orange-300' style={{ fontFamily: 'Raleway' }}>
@@ -57,7 +57,7 @@ const Navbar = () => {
             <Link href='/بروفايل شركة ضخور المدينه للمقاولات.pdf'>ملف الشركة</Link>
           </li>
           <li className='p-4 hover:text-orange-300' style={{ fontFamily: 'Raleway' }}>
-            <Link href='/projectAr'>المشروعات</Link>
+            <Link href='/projectAr'>المشاريع</Link>
           </li>
           <li className='p-4 hover:text-orange-300' style={{ fontFamily: 'Raleway' }}>
             <Link href='/EquipmentsAr'>المصادر</Link>
@@ -121,13 +121,13 @@ const Navbar = () => {
         >
           <ul>
             <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-              <Link href='/'>الصفحة الرئيسية</Link>
+              <Link href='/indexar'>الصفحة الرئيسية</Link>
             </li>
             <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
               <Link href='/aboutar'>معلومات عنا</Link>
             </li>
             <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-              <Link href='/projectAr'>المشروعات</Link>
+              <Link href='/projectAr'>المشاريع</Link>
             </li>
             <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
               <Link href='/EquipmentsAr'>المصادر</Link>

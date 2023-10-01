@@ -29,7 +29,7 @@ const teamMembersArabic = [
     {
         name: 'الكهرباء السفلية والإضاءة وخطوط الهاتف',
         major: 'تركيب وصيانة أنظمة الكهرباء وحلول الإضاءة.',
-        image: 'https://img.freepik.com/free-photo/low-angle-shot-electric-linemen-working-pole_181624-46993.jpg?w=996&t=st=1695228852~exp=1695229452~hmac=77c3f5d36f15df3d04e1369f154e4425ebff95343abedb3bcd65f12d47c88284',
+        image: 'https://i.pinimg.com/564x/b5/98/f2/b598f2e195380475eb57d40484f28fbd.jpg',
     },
     {
         name: 'صيانة شبكات المياه الرئيسية والفرعية',
