@@ -5,6 +5,13 @@ import styles from "../styles/project.module.css";
 
 const teamMembers = [
   {
+    name: "NAME : A picture illustrating the concrete pouring with a special concrete pump in the first layer of the upper 500m³ tank walls.",
+    major:
+    "LOCATION : Wadi Al-Dawasir Governorate",
+    image:
+      "/خز.jpg",
+  },
+  {
     name: "NAME : The drainage of floods and the prevention of their hazards in Al-Uyunah and Al-Jubailiyah.",
     major:
       " LOCATION : Northern Borders.",
@@ -33,11 +40,31 @@ const teamMembers = [
     "/school2.jpg",
   },
   {
+    name: "NAME : Project beginning for constructing a ground tank building.",
+    major:
+    "LOCATION : Dawadmi Governorate .",
+    image:
+      "ارضي.jpg",
+  }, {
+    name: "NAME : A picture illustrating the placement of a ladder inside the tank. ",
+    major:
+    "LOCATION : Dawadmi Governorate .",
+    image:
+      "سلم.jpg",
+  },
+  {
     name: "NAME : Implementation of Water Tanks and Networks for Group 9/7 - Contract Number[1]",
     major:
       " LOCATION :Najran Region.",
     image:
     "/فيضان.jpg",
+  },
+  {
+    name:"NAME : A picture illustrating epoxy insulation work for the upper tank slab ",
+    major:
+    "LOCATION : Wadi Al-Dawasir Governorate",
+    image:
+    "/دوامي3.jpg",
   },
   {
     name: "NAME : Execution of Water Tanks and Networks for Group 9/6 - Contract Number [2]",
@@ -46,6 +73,13 @@ const teamMembers = [
     image:
     "/خزان2.jpg",
     },
+    {
+      name: "NAME : A picture illustrating the completion of barbed wire installation  ",
+      major:
+      "LOCATION : Wadi Al-Dawasir Governorate",
+      image:
+      "/شيك.jpg",
+    },
   
   {
     name: "NAME : Implementation Contract for Dawadmi Water Network - Contract Number [2]",
@@ -53,6 +87,12 @@ const teamMembers = [
       "LOCATION : Dawadmi Governorate .",
     image:
     " /دوادمي2.jpg " ,
+  },
+  {
+    name: "NAME : A picture illustrating the installation of electrical panels in the pumping building in the Shurafa neighborhood.",
+    major:  "LOCATION : Wadi Al-Dawasir Governorate",
+    image:
+   "/مولدكهربا.jpg" ,
   },
   {
     name: "NAME : Implementation of Dawadmi Water Network",

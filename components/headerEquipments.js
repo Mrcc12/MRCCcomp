@@ -53,9 +53,7 @@ const Navbar = () => {
           <li className='p-4 hover:text-orange-300' style={{ fontFamily: 'Raleway' }}>
             <Link href='/about'>About</Link>
           </li>
-          <li className='p-4 hover:text-orange-300' style={{ fontFamily: 'Raleway' }}>
-            <Link href='/بروفايل شركة ضخور المدينه للمقاولات.pdf'>Company Profile</Link>
-          </li>
+          
           <li className='p-4 hover:text-orange-300' style={{ fontFamily: 'Raleway' }}>
             <Link href='/project'>Project</Link>
           </li>
@@ -64,6 +62,9 @@ const Navbar = () => {
           </li>
           <li className='p-4 hover:text-orange-300' style={{ fontFamily: 'Raleway' }}>
             <Link href='/contact'>Contact</Link>
+          </li>
+          <li className='p-4 hover:text-orange-300' style={{ fontFamily: 'Raleway' }}>
+            <Link href='/بروفايل شركة ضخور المدينه للمقاولات.pdf'>Company Profile</Link>
           </li>
           <li className='relative p-4 group' style={{ fontFamily: 'Raleway' }}>
             <button
@@ -160,7 +161,7 @@ const Navbar = () => {
                     onClick={toggleLanguage}
                     className='w-full px-4 py-2 text-left hover:bg-gray-200'
                   >
-                     <Link href={isEnglish ? '/EquipmentsAr' : '/'}>
+                     <Link href={isEnglish ? '/EquipmentsAr' : '/Equipments'}>
                     {isEnglish ? 'AR' : 'EN'}
                     </Link>
                   </button>

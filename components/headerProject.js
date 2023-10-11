@@ -51,9 +51,7 @@ const Navbar = () => {
           <li className='p-4 hover:text-orange-300' style={{    fontFamily: 'Raleway'}}>
             <Link href='/about'>About</Link>
           </li>
-          <li className='p-4 hover:text-orange-300' style={{    fontFamily: 'Raleway'}}>
-            <Link href='/بروفايل شركة ضخور المدينه للمقاولات.pdf'>Company Profile</Link>
-          </li>
+         
           <li className='p-4 hover:text-orange-300' style={{    fontFamily: 'Raleway'}}>
             <Link href='/project'>Project</Link>
           </li>
@@ -62,6 +60,9 @@ const Navbar = () => {
           </li>
           <li className='p-4 hover:text-orange-300' style={{    fontFamily: 'Raleway'}}>
             <Link href='/contact'>Contact</Link>
+          </li>
+          <li className='p-4 hover:text-orange-300' style={{    fontFamily: 'Raleway'}}>
+            <Link href='/بروفايل شركة ضخور المدينه للمقاولات.pdf'>Company Profile</Link>
           </li>
           <li className='relative p-4 group' style={{ fontFamily: 'Raleway' }}>
             <button

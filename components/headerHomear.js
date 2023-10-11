@@ -41,7 +41,7 @@ const Navbar = () => {
     >
       <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-white'>
         <Link href='/'>
-        <img style={{width:"70px",height:"70px"}} src="/logocompany.png" alt="logo" />
+        <img style={{width:"80px",height:"80px"}} src="/logocompany.png" alt="logo" />
         </Link>
         <ul style={{ color: `${textColor}` }} className='hidden sm:flex'>
        
@@ -61,7 +61,7 @@ const Navbar = () => {
          <Link href='/projectAr'>المشاريع</Link>
        </li>
        <li className='p-4 hover:text-orange-300' style={{ fontFamily: 'Raleway' }}>
-         <Link href='/abouar'>معلومات عنا</Link>
+         <Link href='/aboutar'>معلومات عنا</Link>
        </li>
        <li className='p-4 hover:text-orange-300' style={{ fontFamily: 'Raleway' }}>
          <Link href='/indexar'>الصفحة الرئيسية</Link>
@@ -94,7 +94,7 @@ const Navbar = () => {
                  onClick={toggleLanguage}
                  className='w-full px-4 py-2 text-left hover:bg-gray-200'
                >
-                  <Link href={isEnglish ? '/about' : '/aboutar'}>
+                  <Link href={isEnglish ? '/' : '/indexar'}>
                  {isEnglish ? 'EN' : 'AR'}
                  </Link>
                </button>
