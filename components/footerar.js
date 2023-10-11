@@ -126,10 +126,10 @@ function Footer() {
               الرياض، المملكة العربية السعودية
             </li>
             <li className="pb-2 font-semibold text-white cursor-pointer text-md hover:text-orange-300">
-              الهاتف: 011-244-8491
+            011-244-8491 : الهاتف
             </li>
             <li className="pb-2 font-semibold text-white cursor-pointer text-md hover:text-orange-300">
-              البريد الإلكتروني: AARS1@HOTMAIL.COM
+              AARS1@HOTMAIL.COM : البريد الإلكتروني
             </li>
           </ul>
         </div>

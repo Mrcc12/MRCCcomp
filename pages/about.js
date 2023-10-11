@@ -11,7 +11,7 @@ const About = () => {
         top: 0,
         left: 0,
         width: '100%',
-        height: '500px',
+        height: '600px',
         backgroundColor: 'rgba(0, 0, 0, 0.5)', // Adjust the opacity as needed
     };
 
@@ -51,7 +51,7 @@ const About = () => {
                             <p className={styles.title}>WHO WE ARE</p>
                             <p className={styles.text}>
                                 <br></br>
-                                The City Rocks Contracting Company, located in Riyadh, is considered one of the establishments engaged in providing and executing contracts for building construction and interior and exterior decoration, as well as maintenance. The company was founded in 2002. Since its inception, the company has specialized in carrying out various tasks, including water networks and tanks, road maintenance, infrastructure, and electrical works.
+                                 Al-Madenah Rocks for construction, located in Riyadh, is considered one of the establishments engaged in providing and executing contracts for building construction and interior and exterior decoration, as well as maintenance. The company was founded in 2002. Since its inception, the company has specialized in carrying out various tasks, including water networks and tanks, road maintenance, infrastructure, and electrical works.
                             </p>
 
                         </div>

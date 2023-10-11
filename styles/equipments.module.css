@@ -1,8 +1,9 @@
 .aboutbackground {
-    background-image: url('https://img.freepik.com/free-photo/large-truck-carrying-sand-platinum-mining-site-africa_181624-60189.jpg?size=626&ext=jpg&ga=GA1.2.1442964426.1687759231&semt=ais');
-    background-size: cover;
-    height: 500px;
+    background-image: url('https://images-ext-2.discordapp.net/external/BHzJmdzSOwXsYi-E_oX1-Nb-X6B51yqwUA11CkUwo24/%3Fsize%3D626%26ext%3Djpg%26ga%3DGA1.2.1442964426.1687759231%26semt%3Dais/https/img.freepik.com/free-photo/high-angle-shot-two-excavators-building-site_181624-7771.jpg?width=860&height=482');
+    background-size:cover;
+    height: 600px;
     position: 'relative',
+
 }
 
 /* .weare1{

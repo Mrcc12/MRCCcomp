@@ -41,9 +41,10 @@ const Navbar = () => {
     >
       <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-white'>
         <Link href='/'>
-          <h1 style={{ color: `${textColor}` }} className='text-4xl font-bold'>
+          {/* <h1 style={{ color: `${textColor}` }} className='text-4xl font-bold'>
           MRCC
-          </h1>
+          </h1> */}
+       <img style={{width:"70px",height:"70px"}} src="/logocompany.png" alt="logo" />
         </Link>
         <ul style={{ color: `${textColor}` }} className='hidden sm:flex'>
           <li className='p-4 hover:text-orange-300' style={{    fontFamily: 'Raleway'}}>

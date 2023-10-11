@@ -5,10 +5,10 @@ import styles from '../styles/client.module.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 const teamMembers = [
-    {
-        name: 'وزارة المياه والكهرباء',
-        image: 'https://al-ayuni.com/wp-content/uploads/2018/05/mowe-logo.jpg',
-    },
+    // {
+    //     name: 'وزارة المياه والكهرباء',
+    //     image: 'https://al-ayuni.com/wp-content/uploads/2018/05/mowe-logo.jpg',
+    // },
     {
         name: 'الإدارة العامة للمياه - منطقة الرياض',
         image: 'https://th.bing.com/th/id/OIP.sXcUPmrkujAyla6_pgKr0gHaFj?pid=ImgDet&rs=1',
@@ -38,7 +38,7 @@ const ClientPage2 = () => {
             </div>
             <div style={{ padding: '10px', marginTop: '10px', }} className={styles.contain}>
                 <div id='about' className="flex items-center justify-center ">
-                    <div className="grid grid-cols-1 gap-2 lg:grid-cols-5" >
+                    <div className="grid grid-cols-1 gap-3 lg:grid-cols-4" >
                         {teamMembers.map((member, index) => (
                             <div key={index} className="relative items-center justify-center" >
                                 <div className={styles.clientDiv}>
