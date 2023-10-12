@@ -59,6 +59,13 @@ const teamMembers = [
     image:
     "/فيضان.jpg",
   },
+
+  {
+    name: "NAME : Picture illustrating the installation of discharge lines from the pumps.",
+    major:  "LOCATION : Wadi Al-Dawasir Governorate",
+    image:
+   "/الطرد.jpeg" ,
+  },
   {
     name:"NAME : A picture illustrating epoxy insulation work for the upper tank slab ",
     major:
@@ -92,7 +99,13 @@ const teamMembers = [
     name: "NAME : A picture illustrating the installation of electrical panels in the pumping building in the Shurafa neighborhood.",
     major:  "LOCATION : Wadi Al-Dawasir Governorate",
     image:
-   "/مولدكهربا.jpg" ,
+   "/لوحه.jpg" ,
+  },
+  {
+    name: "NAME : Picture illustrating the installation of pumps in the pumping building.",
+    major:  "LOCATION : Wadi Al-Dawasir Governorate",
+    image:
+   "/networkwater2.jpg" ,
   },
   {
     name: "NAME : Implementation of Dawadmi Water Network",
