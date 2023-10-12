@@ -94,7 +94,7 @@ const Navbar = () => {
                  onClick={toggleLanguage}
                  className='w-full px-4 py-2 text-left hover:bg-gray-200'
                >
-                  <Link href={isEnglish ? '/about' : '/aboutar'}>
+                  <Link href={isEnglish ? '/project' : '/projectAr'}>
                  {isEnglish ? 'EN' : 'AR'}
                  </Link>
                </button>
