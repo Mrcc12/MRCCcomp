@@ -5,147 +5,122 @@ import styles from "../styles/project.module.css";
 
 const teamMembers = [
   {
-    name: "NAME : A picture illustrating the concrete pouring with a special concrete pump in the first layer of the upper 500m³ tank walls.",
-    major:
-    "LOCATION : Wadi Al-Dawasir Governorate",
-    image:
-      "/خز.jpg",
+    name: "Image showing the pouring of a special concrete pump in the first layer of the upper 500m3 tank walls",
+    major: "Location: Wadi Al Dawasir .",
+    image: "/خز.jpg",
   },
   {
-    name: "NAME : The drainage of floods and the prevention of their hazards in Al-Uyunah and Al-Jubailiyah.",
-    major:
-      " LOCATION : Northern Borders.",
-    image:
-      "1مشروع.jpg",
+    name: "Image showing insulation work on the foundations of the upper 1500 m3 tank in Ash Sharafah",
+    major: "Location: Wadi Al Dawasir .",
+    image: "/قواعد.jpeg",
   },
   {
-    name: "NAME : Implementation of Group 7/3 Water Projects in the Northern Border Region",
-    major:
-      " LOCATION : Al-Ayina and Al-Jubailah Municipality.",
-    image:
-      "/water.jpg",
+    name: "Image showing the reinforcement of the steel for the upper 1500m3 tank",
+    major: "Location: Wadi Al Dawasir .",
+    image: "/تسليح.jpeg",
   },
   {
-    name: "NAME : Renovation Process of Fifth Primary School and Second Secondary School in Al-Majma'ah",
-    major:
-      " LOCATION :Majmaah Governorate.",
-    image:
-      "https://static.srpcdigital.com/styles/1200x600/public/2022/09/15/1663251404074764900.jpg",
+    name: "Flood drainage and risk prevention in Al Uyaynah and Al Jubayliyah.",
+    major: "Location: Northern Borders Region.",
+    image: "1مشروع.jpg",
   },
   {
-    name: "NAME : Construction Process of the First Primary School in Al-Shu'bah",
-    major:
-      " LOCATION :Majmaah Governorate.",
-    image:
-    "/school2.jpg",
+    name: "Image in Wadi Al Dawasir/City of Umm Samrah showing the extension of the above-ground tank pipeline to the pumping station in Umm Samrah",
+    major: "Location: Wadi Al Dawasir.",
+    image: "/water.jpg",
   },
   {
-    name: "NAME : Project beginning for constructing a ground tank building.",
-    major:
-    "LOCATION : Dawadmi Governorate .",
-    image:
-      "ارضي.jpg",
-  }, {
-    name: "NAME : A picture illustrating the placement of a ladder inside the tank. ",
-    major:
-    "LOCATION : Dawadmi Governorate .",
-    image:
-      "سلم.jpg",
+    name: "Renovation of the Fifth Elementary School and the Second High School in Al-Majma'ah",
+    major: "Location: Al-Majma'ah Province.",
+    image: "https://static.srpcdigital.com/styles/1200x600/public/2022/09/15/1663251404074764900.jpg",
   },
   {
-    name: "NAME : Implementation of Water Tanks and Networks for Group 9/7 - Contract Number[1]",
-    major:
-      " LOCATION :Najran Region.",
-    image:
-    "/فيضان.jpg",
-  },
-
-  {
-    name: "NAME : Picture illustrating the installation of discharge lines from the pumps.",
-    major:  "LOCATION : Wadi Al-Dawasir Governorate",
-    image:
-   "/الطرد.jpeg" ,
+    name: "Construction of the First Elementary School in Ash Shibah",
+    major: "Location: Al-Majma'ah Province.",
+    image: "/school2.jpg",
   },
   {
-    name:"NAME : A picture illustrating epoxy insulation work for the upper tank slab ",
-    major:
-    "LOCATION : Wadi Al-Dawasir Governorate",
-    image:
-    "/دوامي3.jpg",
+    name: "Start of the project to build an underground tank .",
+    major: "Location: Al-Dawadmi Region .",
+    image: "ارضي.jpg",
   },
   {
-    name: "NAME : Execution of Water Tanks and Networks for Group 9/6 - Contract Number [2]",
-    major:
-    " LOCATION : Najran Region.",
-    image:
-    "/خزان2.jpg",
-    },
-    {
-      name: "NAME : A picture illustrating the completion of barbed wire installation  ",
-      major:
-      "LOCATION : Wadi Al-Dawasir Governorate",
-      image:
-      "/شيك.jpg",
-    },
-  
-  {
-    name: "NAME : Implementation Contract for Dawadmi Water Network - Contract Number [2]",
-    major:
-      "LOCATION : Dawadmi Governorate .",
-    image:
-    " /دوادمي2.jpg " ,
+    name: "Image showing the placement of a ladder inside a tank",
+    major: "Location: Al-Dawadmi Region .",
+    image: "سلم.jpg",
   },
   {
-    name: "NAME : A picture illustrating the installation of electrical panels in the pumping building in the Shurafa neighborhood.",
-    major:  "LOCATION : Wadi Al-Dawasir Governorate",
-    image:
-   "/لوحه.jpg" ,
+    name: "Implementation of water tanks and their networks for Group 9/7 - Contract Number [1]",
+    major: "Location: Najran Region.",
+    image: "/فيضان.jpg",
   },
   {
-    name: "NAME : Picture illustrating the installation of pumps in the pumping building.",
-    major:  "LOCATION : Wadi Al-Dawasir Governorate",
-    image:
-   "/networkwater2.jpg" ,
+    name: "Image showing the installation of discharge lines from the pumps",
+    major: "Location: Wadi Al Dawasir .",
+    image: "/الطرد.jpeg",
   },
   {
-    name: "NAME : Implementation of Dawadmi Water Network",
-    major:
-      "LOCATION : Dawadmi Governorate .",
-    image:
-    "/دوادمي1.jpg",
-    },
-  {
-    name: "NAME : Installation of Shelters for Group 30",
-    major:
-    "LOCATION : Riyadh City.",
-    image:
-    "/مضلات.jpg",
-  },
-
-  {
-    name: "NAME : Water Projects for Group 1/5",
-    major:
-      "LOCATION : Dawadmi Governorate .",
-    image:
-    "/networkwater.jpg",
-    },
-  {
-    name: "NAME : Contract for the Implementation of Water Networks in Wadi Al-Dawasir City",
-    major:
-      "LOCATION : Wadi Al-Dawasir Governorate",
-    image:
-    "/دواسي.jpg",
+    name: "Image showing epoxy insulation work for the solution tank in Umm Samrah",
+    major: "Location: Wadi Al Dawasir .",
+    image: "/دوامي3.jpg",
   },
   {
-    name: "NAME : Contract for the Completion of Home Connections and Meters in Cities and Villages in the Jazan Region",
-    major:
-      "LOCATION : Jazan Region",
-    image:
-      "/jazan.jpg",
+    name: "Implementation of water tanks and their networks for Group 9/6 - Contract Number [2]",
+    major: "Location: Najran Region .",
+    image: "/خزان2.jpg",
   },
-
-
+  {
+    name: "Image showing the completion of barbed wire installation at the Sharafa site",
+    major: "Location: Wadi Al Dawasir .",
+    image: "/شيك.jpg",
+  },
+  {
+    name: "Image in Wadi Al Dawasir/City of Umm Samrah showing leakage testing in the upper tank of Umm Samrah",
+    major: "Location: Wadi Al Dawasir.",
+    image: "/دوادمي2.jpg",
+  },
+  {
+    name: "Image showing the installation of electrical panels in the pumping building in Al-Sharafa",
+    major: "Location: Wadi Al Dawasir .",
+    image: "/لوحه.jpg",
+  },
+  {
+    name: "Image showing the installation of pumps in the pumping building",
+    major: "Location: Wadi Al Dawasir .",
+    image: "/networkwater2.jpg",
+  },
+  {
+    name: "Image in Wadi Al Dawasir/City of Umm Samrah showing the general appearance of the upper tank of Umm Samrah",
+    major: "Location: Wadi Al Dawasir .",
+    image: "/خزان علوي ام سمرة.jpg",
+  },
+  {
+    name: "Image in Wadi Al Dawasir/City of Al-Sharafa showing the installation of irrigation pumps and connections above the above-ground tank in Al-Sharafa",
+    major: "Location: Wadi Al Dawasir .",
+    image: "/دوادمي1.jpg",
+  },
+  {
+    name: "Installation of canopies for Group 30",
+    major: "Location: Riyadh City .",
+    image: "/مضلات.jpg",
+  },
+  {
+    name: "Image in Wadi Al Dawasir/City of Al-Sharafa showing external paintwork and writing the logo on the Sharafa tank",
+    major: "Location: Wadi Al Dawasir",
+    image: "/networkwater.jpg",
+  },
+  {
+    name: "Image in Wadi Al Dawasir/City of Al-Sharafa showing the general shape of the upper Al Sharafa tank after removing the wooden formwork",
+    major: "Location: Wadi Al Dawasir",
+    image: "/فك الشدة الخشبية.jpg",
+  },
+  {
+    name: "Image in Wadi Al Dawasir/City of Umm Samrah showing the finishing of the Umm Samrah pumping building",
+    major: "Location: Wadi Al Dawasir",
+    image: "/jazan.jpg",
+  },
 ];
+
 
 const Projectpage = () => {
   const overlayStyle = {

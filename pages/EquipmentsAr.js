@@ -60,82 +60,96 @@ const Equipmentspage = () => {
                   <table className={styles.tablel}>
                     <thead className={styles.thead}>
                       <tr className={styles.tr}>
-                        <th className={`${styles.th} wpdt-fs-000018 wpdt-bc-0274BE wpdt-tc-FFFFFF`}>
-                          رقم
-                        </th>
-                        <th className={`${styles.thd} wpdt-fs-000018 wpdt-bc-0274BE wpdt-tc-FFFFFF`}>
+                      <th className={`${styles.thd} wpdt-fs-000018 wpdt-bc-0274BE wpdt-tc-FFFFFF`}>
                           الوصف
                         </th>
                         <th className={`${styles.th} wpdt-fs-000018 wpdt-bc-0274BE wpdt-tc-FFFFFF`}>
-                          الكمية
+                          رقم
                         </th>
+                    
+                        {/* <th className={`${styles.th} wpdt-fs-000018 wpdt-bc-0274BE wpdt-tc-FFFFFF`}>
+                          الكمية
+                        </th> */}
                       </tr>
                     </thead>
                     <tbody className={styles.tbody}>
                       <tr className={`${styles.row3_even}`}>
+                      <td className={styles.td}>كرين 100 طن</td>
                         <td className={styles.td}>01</td>
-                        <td className={styles.td}>كرين 100 طن</td>
-                        <td className={styles.td}>1</td>
+                       
+                        {/* <td className={styles.td}>1</td> */}
                       </tr>
                       <tr className={`${styles.row3_odd}`}>
+                      <td className={styles.td}>كرين 70 طن</td>
+
                         <td className={styles.td}>02</td>
-                        <td className={styles.td}>كرين 70 طن</td>
-                        <td className={styles.td}>1</td>
+                        {/* <td className={styles.td}>1</td> */}
                       </tr>
                       <tr className={`${styles.row3_even}`}>
+                      <td className={styles.td}>كرين 50 طن</td>
+
                         <td className={styles.td}>03</td>
-                        <td className={styles.td}>كرين 50 طن</td>
-                        <td className={styles.td}>4</td>
+                        {/* <td className={styles.td}>4</td> */}
                       </tr>
                       <tr className={`${styles.row3_odd}`}>
+                      <td className={styles.td}>كرين 25 طن</td>
+
                         <td className={styles.td}>04</td>
-                        <td className={styles.td}>كرين 25 طن</td>
-                        <td className={styles.td}>1</td>
+                        {/* <td className={styles.td}>1</td> */}
                       </tr>
                       <tr className={`${styles.row3_even}`}>
+                      <td className={styles.td}>شيول حفار</td>
+
                         <td className={styles.td}>06</td>
-                        <td className={styles.td}>شيول حفار</td>
-                        <td className={styles.td}>7</td>
+                        {/* <td className={styles.td}>7</td> */}
                       </tr>
                       <tr className={`${styles.row3_odd}`}>
+                      <td className={styles.td}>بوكلين حفار و دقاق</td>
+
                         <td className={styles.td}>05</td>
-                        <td className={styles.td}>بوكلين حفار و دقاق</td>
-                        <td className={styles.td}>8</td>
+                        {/* <td className={styles.td}>8</td> */}
                       </tr>
                       <tr className={`${styles.row3_even}`}>
+                      <td className={styles.td}>شيول لودر</td>
+
                         <td className={styles.td}>07</td>
-                        <td className={styles.td}>شيول لودر</td>
-                        <td className={styles.td}>3</td>
+                        {/* <td className={styles.td}>3</td> */}
                       </tr>
                       <tr className={`${styles.row3_odd}`}>
+                      <td className={styles.td}>قلاب</td>
+
                         <td className={styles.td}>08</td>
-                        <td className={styles.td}>قلاب</td>
-                        <td className={styles.td}>3</td>
+                        {/* <td className={styles.td}>3</td> */}
                       </tr>
                       <tr className={`${styles.row3_even}`}>
+                      <td className={styles.td}>قصاصه اسفلت</td>
+
                         <td className={styles.td}>09</td>
-                        <td className={styles.td}>قصاصه اسفلت</td>
-                        <td className={styles.td}>5</td>
+                        {/* <td className={styles.td}>5</td> */}
                       </tr>
                       <tr className={`${styles.row3_odd}`}>
+                      <td className={styles.td}>فراده اسفلت</td>
+
                         <td className={styles.td}>10</td>
-                        <td className={styles.td}>فراده اسفلت</td>
-                        <td className={styles.td}>2</td>
+                        {/* <td className={styles.td}>2</td> */}
                       </tr>
                       <tr className={`${styles.row3_even}`}>
+                      <td className={styles.td}>رصاصه مختلفه</td>
+                        
                         <td className={styles.td}>11</td>
-                        <td className={styles.td}>رصاصه مختلفه</td>
-                        <td className={styles.td}>7</td>
+                        {/* <td className={styles.td}>7</td> */}
                       </tr>
                       <tr className={`${styles.row3_odd}`}>
+                      <td className={styles.td}>رجاج تربة</td>
+
                         <td className={styles.td}>12</td>
-                        <td className={styles.td}>رجاج تربة</td>
-                        <td className={styles.td}>2</td>
+                        {/* <td className={styles.td}>2</td> */}
                       </tr>
                       <tr className={`${styles.row3_even}`}>
+                      <td className={styles.td}>تانك مياه سعة 14 م3</td>
+
                         <td className={styles.td}>13</td>
-                        <td className={styles.td}>تانك مياه سعة 14 م3</td>
-                        <td className={styles.td}>1</td>
+                        {/* <td className={styles.td}>1</td> */}
                       </tr>
                     </tbody>
                   </table>
@@ -180,6 +194,104 @@ const Equipmentspage = () => {
           <p className={styles.title}>المعرض</p>
         </div>
         <section className={styles.gallary}>
+
+          <img className={styles.gallaryImg} style={{
+
+            transform: `perspective(600px) rotateY(${isHovered ? '10deg' : '0deg'})`,
+            transition: 'transform 0.3s ease-in-out',
+          }}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+            src="/m1.png" alt="Image 1" />
+
+          <img className={styles.gallaryImg} style={{
+
+            transform: `perspective(600px) rotateY(${isHovered ? '10deg' : '0deg'})`,
+            transition: 'transform 0.3s ease-in-out',
+          }}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+            src="/m2.png" alt="Image 1" />
+          <img className={styles.gallaryImg} style={{
+
+            transform: `perspective(600px) rotateY(${isHovered ? '10deg' : '0deg'})`,
+            transition: 'transform 0.3s ease-in-out',
+          }}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+            src="/m3.png" alt="Image 1" />
+          <img className={styles.gallaryImg} style={{
+
+            transform: `perspective(600px) rotateY(${isHovered ? '10deg' : '0deg'})`,
+            transition: 'transform 0.3s ease-in-out',
+          }}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+            src="/m4.png" alt="Image 1" />
+          <img className={styles.gallaryImg} style={{
+
+            transform: `perspective(600px) rotateY(${isHovered ? '10deg' : '0deg'})`,
+            transition: 'transform 0.3s ease-in-out',
+          }}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+            src="/m5.png" alt="Image 1" />
+          <img className={styles.gallaryImg} style={{
+
+            transform: `perspective(600px) rotateY(${isHovered ? '10deg' : '0deg'})`,
+            transition: 'transform 0.3s ease-in-out',
+          }}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+            src="/m6.png" alt="Image 1" />
+          <img className={styles.gallaryImg} style={{
+
+            transform: `perspective(600px) rotateY(${isHovered ? '10deg' : '0deg'})`,
+            transition: 'transform 0.3s ease-in-out',
+          }}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+            src="/m7.png" alt="Image 1" />
+          <img className={styles.gallaryImg} style={{
+
+            transform: `perspective(600px) rotateY(${isHovered ? '10deg' : '0deg'})`,
+            transition: 'transform 0.3s ease-in-out',
+          }}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+            src="/m8.png" alt="Image 1" />
+          <img className={styles.gallaryImg} style={{
+
+            transform: `perspective(600px) rotateY(${isHovered ? '10deg' : '0deg'})`,
+            transition: 'transform 0.3s ease-in-out',
+          }}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+            src="/m9.png" alt="Image 1" />
+          <img className={styles.gallaryImg} style={{
+
+            transform: `perspective(600px) rotateY(${isHovered ? '10deg' : '0deg'})`,
+            transition: 'transform 0.3s ease-in-out',
+          }}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+            src="/m10.png" alt="Image 1" />
+          <img className={styles.gallaryImg} style={{
+
+            transform: `perspective(600px) rotateY(${isHovered ? '10deg' : '0deg'})`,
+            transition: 'transform 0.3s ease-in-out',
+          }}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+            src="/m11.png" alt="Image 1" />
+          <img className={styles.gallaryImg} style={{
+
+            transform: `perspective(600px) rotateY(${isHovered ? '10deg' : '0deg'})`,
+            transition: 'transform 0.3s ease-in-out',
+          }}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+            src="/m12.png" alt="Image 1" />
 
           <img className={styles.gallaryImg} style={{
 

@@ -44,7 +44,7 @@ const Navbar = () => {
           {/* <h1 style={{ color: `${textColor}` }} className='text-4xl font-bold'>
           MRCC
           </h1> */}
-       <img style={{width:"70px",height:"70px"}} src="/logocompany.png" alt="logo" />
+        <img style={{width:"90px",height:"90px"}} src="/logocompany.png" alt="logo" />
         </Link>
         <ul style={{ color: `${textColor}` }} className='hidden sm:flex'>
           <li className='p-4 hover:text-orange-300' style={{    fontFamily: 'Raleway'}}>
@@ -61,11 +61,12 @@ const Navbar = () => {
           <li className='p-4 hover:text-orange-300' style={{ fontFamily: 'Raleway' }}>
             <Link href='/Equipments'>Resources</Link>
           </li>
-          <li className='p-4 hover:text-orange-300' style={{    fontFamily: 'Raleway'}}>
-            <Link href='/contact'>Contact</Link>
-          </li>
+         
           <li className='p-4 hover:text-orange-300' style={{    fontFamily: 'Raleway'}}>
             <Link href='/بروفايل شركة ضخور المدينه للمقاولات.pdf'>Company Profile</Link>
+          </li>
+          <li className='p-4 hover:text-orange-300' style={{    fontFamily: 'Raleway'}}>
+            <Link href='/contact'>Contact</Link>
           </li>
           <li className='relative p-4 group' style={{ fontFamily: 'Raleway' }}>
             <button
