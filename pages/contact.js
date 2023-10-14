@@ -50,7 +50,7 @@ const Contactpage = () => {
                                             <FontAwesomeIcon icon={faMapMarker} className={styles.ct__address__icon_i} />
                                         </div>
                                         <div className="ct__details">
-                                            <p>Riyadh, Saudi Arabia <br></br>Alfarouq, Riyadh, Saudi Arabia</p>
+                                        <p>You can visit our location:<br></br>Alfarouq, Riyadh, Saudi Arabia</p>
                                         </div>
                                     </div>
 
@@ -59,7 +59,7 @@ const Contactpage = () => {
                                             <FontAwesomeIcon icon={faPhone} className={`${styles.ct__address__icon_i}`} />
                                         </div>
                                         <div className="ct__details">
-                                            <p><a href="#"> (011) 244 8491</a></p>
+                                        <p><a href="#">You can contact us at the following number: </a></p>
                                             <p><a href="#">(011) 244 8491</a></p>
                                         </div>
                                     </div>
@@ -70,7 +70,8 @@ const Contactpage = () => {
                                             <FontAwesomeIcon icon={faGlobe} className={styles.ct__address__icon_i} />
                                         </div>
                                         <div className="ct__details">
-                                            <p><a href="#">AARS1@HOTMAIL.COM</a></p>
+                                        <p><a href="#">Contact us via email:</a></p>
+
                                             <p><a href="#">AARS1@HOTMAIL.COM</a></p>
                                         </div>
                                     </div>
