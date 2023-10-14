@@ -1,16 +1,16 @@
-import React from 'react';
-import Footer from '@/components/footerar';
-import Navbar from '@/components/headerAboutar';
-import styles from '../styles/aboutbage.module.css';
+import React from "react";
+import Footer from "@/components/footerar";
+import Navbar from "@/components/headerAboutar";
+import styles from "../styles/aboutbage.module.css";
 
 const About = () => {
   const overlayStyle = {
-    position: 'absolute',
+    position: "absolute",
     top: 0,
     left: 0,
-    width: '100%',
-    height: '500px',
-    backgroundColor: 'rgba(0, 0, 0, 0.5)', // Adjust the opacity as needed
+    width: "100%",
+    height: "500px",
+    backgroundColor: "rgba(0, 0, 0, 0.5)", // Adjust the opacity as needed
   };
 
   return (
@@ -26,33 +26,46 @@ const About = () => {
 
         <div className={styles.containerorganization}>
           <div className={styles.iconContainer}>
-          <div class="elementor-icon-wrapper">
-                                <div class="elementor-icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="20" viewBox="0 0 21 8" fill="none">
-                                        <path d="M7 0H13L6 8H0L7 0Z" fill="#FCC236"></path>
-                                        <path d="M13 0H7L15 8H21L13 0Z" fill="#FCC236"></path>
-                                    </svg>
-                                </div>
-                            </div>
+            <div class="elementor-icon-wrapper">
+              <div class="elementor-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="60"
+                  height="20"
+                  viewBox="0 0 21 8"
+                  fill="none"
+                >
+                  <path d="M7 0H13L6 8H0L7 0Z" fill="#FCC236"></path>
+                  <path d="M13 0H7L15 8H21L13 0Z" fill="#FCC236"></path>
+                </svg>
+              </div>
+            </div>
           </div>
           <p className={styles.title}>نظرة عامة</p>
         </div>
 
         <section className={`${styles.weare} row`}>
           <div className={styles.containertext}>
-            <div className={styles.divabouttext}>
+            <div className={styles.divabouttext} style={{ direction: "rtl" }}>
               <p className={styles.title}>من نحن</p>
               <p className={styles.text}>
                 <br></br>
-                شركة صخور المدينة للمقاولات، الموجودة في الرياض، تُعتبر واحدة من المؤسسات التي تعمل في تقديم وتنفيذ العقود لبناء المباني وتزيين الداخل والخارج، بالإضافة إلى الصيانة. تأسست الشركة في عام 2002. منذ تأسيسها، اختصت الشركة في تنفيذ مهام متنوعة، بما في ذلك شبكات المياه والخزانات، وصيانة الطرق، والأعمال التحتية، وأعمال الكهرباء.
+                شركة صخور المدينة للمقاولات، الموجودة في الرياض، تُعتبر واحدة من
+                الشركات التي تعمل في تقديم وتنفيذ العقود لبناء المباني وتزيين
+                الداخل والخارج، بالإضافة إلى الصيانة. تأسست الشركة في عام 2002.
+                منذ تأسيسها، اختصت الشركة في تنفيذ مهام متنوعة، بما في ذلك شبكات
+                المياه والخزانات، وصيانة الطرق، والأعمال التحتية، وأعمال
+                الكهرباء.
               </p>
             </div>
             <br></br>
-            <div className={styles.divabouttext}>
+            <div className={styles.divabouttext} style={{ direction: "rtl" }}>
               <p className={styles.title}>رؤيتنا</p>
               <p className={styles.text}>
                 <br></br>
-                نحن نتطلع إلى التوسع في مشاريع مستقبلية متقدمة وتنفيذ أفكار ذكية من خلال استغلال أحدث التقنيات لرفع شركتنا إلى المستوى العالمي في تقديم خدمات ذات جودة عالية واحترافية.
+                نحن نتطلع إلى التوسع في مشاريع مستقبلية متقدمة وتنفيذ أفكار ذكية
+                من خلال استغلال أحدث التقنيات لرفع شركتنا إلى المستوى العالمي في
+                تقديم خدمات ذات جودة عالية واحترافية.
               </p>
             </div>
           </div>
@@ -70,59 +83,85 @@ const About = () => {
           <div className="container">
             <div className="row">
             <div className="col-lg-3 col-md-3 col-sm-6 separator">
-                                <div className="offer">
-                                    <div className="offer__icon">
-                                        <img src="https://htmldemo.net/tm/simply/simply/images/others/icon-2/1.png" alt="icon images" />
-                                    </div>
-                                    <div className="offer__details">
-                                        <h2><a href="#">اعلى تصنيف</a></h2>
-                                        <p>نحن مصنفون كأفضل الشركات  في مجال الانشاءات و العقارات</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-3 col-sm-6 separator">
-                                <div className="offer">
-                                    <div className="offer__icon">
-                                        <img src="https://htmldemo.net/tm/simply/simply/images/others/icon-2/2.png" alt="icon images" />
-                                    </div>
-                                    <div className="offer__details">
-                                        <h2><a href="#">افضل خدمه</a></h2>
-                                        <p>تمتاز خدمتنا في مجال العقارات بأعلى مستوى من الجودة والاحترافية.</p>
-                                    </div>
-                                </div>
-                            </div>
+  <div className="offer">
+    <div className="offer__details" style={{ textAlign: 'right' }}>
+      <h2>
+        <a href="#">اعلى تصنيف</a>
+      </h2>
+      <p>نحن مصنفون كأفضل الشركات في مجال الانشاءات</p>
+    </div>
+    <div className="offer__icon" style={{ float: 'right' }}>
+      <img
+        src="https://htmldemo.net/tm/simply/simply/images/others/icon-2/1.png"
+        alt="icon images"
+      />
+    </div>
+  </div>
+</div>
 
-                            <div className="col-lg-3 col-md-3 col-sm-6">
-                                <div className="offer">
-                                    <div className="offer__icon">
-                                        <img src="https://htmldemo.net/tm/simply/simply/images/others/icon-2/3.png" alt="icon images" />
-                                    </div>
-                                    <div className="offer__details">
-                                        <h2><a href="#">افضل تكلفه</a></h2>
-                                        <p>نسعى دائماً لتقديم أفضل العروض والأسعار في صناعة الإنشاءات والعقارات
+<div className="col-lg-3 col-md-3 col-sm-6 separator">
+  <div className="offer">
+    <div className="offer__details" style={{ textAlign: 'right' }}>
+      <h2>
+        <a href="#">افضل خدمة</a>
+      </h2>
+      <p>
+        تمتاز خدمتنا في مجال الإنشاءات بأعلى مستوى من الجودة والاحترافية.
+      </p>
+    </div>
+    <div className="offer__icon" style={{ float: 'right' }}>
+      <img
+        src="https://htmldemo.net/tm/simply/simply/images/others/icon-2/2.png"
+        alt="icon images"
+      />
+    </div>
+  </div>
+</div>
 
-</p>
-                                    </div>
-                                </div>
-                            </div>
+
+              <div className="col-lg-3 col-md-3 col-sm-6">
+  <div className="offer">
+    <div className="offer__details" style={{ textAlign: 'right' }}>
+      <h2>
+        <a href="#"> افضل تكلفة </a>
+      </h2>
+      <p>
+        نسعى دائماً لتقديم أفضل العروض والأسعار في صناعة الإنشاءات
+      </p>
+    </div>
+    <div className="offer__icon" style={{ float: 'right' }}>
+      <img
+        src="https://htmldemo.net/tm/simply/simply/images/others/icon-2/3.png"
+        alt="icon images"
+      />
+    </div>
+  </div>
+</div>
+
             </div>
           </div>
         </section>
 
         <div className={styles.containerorganization}>
           <div className={styles.iconContainer}>
-          <div class="elementor-widget-container">
-                            <div class="elementor-icon-wrapper">
-                                <div class="elementor-icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="20" viewBox="0 0 21 8" fill="none">
-                                        <path d="M7 0H13L6 8H0L7 0Z" fill="#FCC236"></path>
-                                        <path d="M13 0H7L15 8H21L13 0Z" fill="#FCC236"></path>
-                                    </svg>
-                                </div>
-                            </div>
-                        </div>
+            <div class="elementor-widget-container">
+              <div class="elementor-icon-wrapper">
+                <div class="elementor-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="60"
+                    height="20"
+                    viewBox="0 0 21 8"
+                    fill="none"
+                  >
+                    <path d="M7 0H13L6 8H0L7 0Z" fill="#FCC236"></path>
+                    <path d="M13 0H7L15 8H21L13 0Z" fill="#FCC236"></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
           </div>
-          <p className={styles.title}>هيكل التنظيم</p>
+          <p className={styles.title}>الهيكل التنظيمي للشركة</p>
           <section className={styles.divorganization}>
             <div className={styles.centerContent}>
               <img

@@ -50,7 +50,7 @@ const Equipmentspage = () => {
               </div>
             </div>
           </div>
-          <p className={styles.title}>معادتنا</p>
+          <p className={styles.title}>معداتنا </p>
         </div>
         <section className={styles.sectionTable}>
           <div className={styles.divTable}>

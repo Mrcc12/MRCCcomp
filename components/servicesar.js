@@ -7,17 +7,17 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 // Define your team members' data in Arabic
 const teamMembersArabic = [
     {
-        name: 'بناء المباني',
-        major: 'نقدم جميع جوانب البناء والأعمال الإنشائية، بدءًا من تنفيذ أعمال التسليح إلى كل ما يتعلق بالبنية التحتية من البداية إلى النهاية.',
+        name: 'انشاءات عمل المباني',
+        major: 'انشاءات عمل المباني الحكومية  والسكنية وغير السكنية مثل الفنادق والمدارس والمستشفيات وغيرها .',
         image: 'https://img.freepik.com/free-photo/beautiful-view-construction-site-city-during-sunset_181624-9347.jpg?size=626&ext=jpg&ga=GA1.2.1442964426.1687759231&semt=ais',
     },
     {
-        name: 'بناء الطرق',
-        major: 'نقدم خدمات شاملة لصيانة الطرق، بالإضافة إلى أعمال البنية التحتية والأعمال الكهربائية مثل الإضاءة ومحطات توليد الطاقة والمحولات ووسائل الاتصال .',
+        name: 'اعمال انشاءواصلاح الطرق',
+        major: 'انشاء واصلاح الشوارع و الارصفه ومستلزمات الطرق وانشاء واصلاح الجسور والانفاق .',
         image: 'https://img.freepik.com/free-photo/road-construction_342744-602.jpg?size=626&ext=jpg&ga=GA1.2.1442964426.1687759231&semt=ais',
     },
     {
-        name: 'شبكة المياه ومياه الصرف الصحي',
+        name: 'انشاء وصيانة شبكات المياه والصرف الصحي والخزانات',
         major: 'نقدم جميع الخدمات المتعلقة ببناء وصيانة شبكات المياه، بالإضافة إلى أعمال الصرف الصحي والتطهير.',
         image: 'https://img.freepik.com/free-photo/gray-pipe-with-water-coming-out-its-hole_181624-4705.jpg?size=626&ext=jpg&ga=GA1.1.1442964426.1687759231&semt=ais',
     },
@@ -27,8 +27,8 @@ const teamMembersArabic = [
         image: 'https://img.freepik.com/free-photo/reforestation-done-by-voluntary-group_23-2149500824.jpg?w=996&t=st=1695228680~exp=1695229280~hmac=ac6303f834ab800b6c53c9895b103c7988d8f6f14c57b7bd8b692ca98ca449fe',
     },
     {
-        name: 'الكهرباء السفلية والإضاءة وخطوط الهاتف',
-        major: 'تركيب وصيانة أنظمة الكهرباء وحلول الإضاءة.',
+        name: 'الكهرباء  والإضاءة وخطوط الهاتف',
+        major: 'انشاء واصلاح المحطات الطاقة الكهربائية والمحولات وابراج الاتصالات ',
         image: 'https://i.pinimg.com/564x/b5/98/f2/b598f2e195380475eb57d40484f28fbd.jpg',
     },
     {
@@ -45,7 +45,7 @@ const AboutPage = () => {
         <div style={{ paddingTop: '20px', backgroundColor: '#fafafa' }}>
             <div className={styles.text}>
                 <h2 className={styles.title__line}>خدماتنا <span className={styles.text__theme}>المقدمة</span></h2>
-                <p className={styles.titlep}>خدمات ترتقي بتجربتك في الإنشاءات والعقارات</p>
+                <p className={styles.titlep}>خدمات ترتقي بتجربتك في الإنشاءات</p>
             </div>
             <div style={{ padding: '50px' }}>
                 <div id='about' className="flex items-center justify-center ">

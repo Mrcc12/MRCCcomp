@@ -51,20 +51,20 @@ function Footer() {
         </div>
 
         {/* قسم الروابط السريعة */}
-        <div className="p-5" style={{ zIndex: 2 }}>
+        <div className="p-5"  style={{ textAlign: 'right' , zIndex: 2 }}>
           <ul>
             <p className="pb-4 text-2xl font-bold text-white">روابط سريعة</p>
             <li className="pb-2 font-semibold text-white cursor-pointer text-md hover:text-orange-300">
-              <Link href='/#about'>حول</Link>
+              <Link href='/#about'>خدماتنا </Link>
             </li>
             <li className="pb-2 font-semibold text-white cursor-pointer text-md hover:text-orange-300">
-              <Link href='/project'>مشروع</Link>
+              <Link href='/project'>مشاريعنا</Link>
             </li>
             <li className="pb-2 font-semibold text-white cursor-pointer text-md hover:text-orange-300">
-              <Link href='/resources'>مصادر</Link>
+              <Link href='/resources'>معداتنا </Link>
             </li>
             <li className="pb-2 font-semibold text-white cursor-pointer text-md hover:text-orange-300">
-              <Link href='/contact'>اتصل</Link>
+              <Link href='/contact'>اتصل بنا </Link>
             </li>
           </ul>
         </div>
@@ -119,7 +119,7 @@ function Footer() {
 
 
         {/* قسم معلومات الاتصال */}
-        <div className="p-5" style={{ zIndex: 2 }}>
+        <div className="p-5" style={{ textAlign: 'right' , zIndex: 2 }}>
           <ul>
             <p className="pb-4 text-2xl font-bold text-white">معلومات الاتصال</p>
             <li className="pb-2 font-semibold text-white cursor-pointer text-md hover:text-orange-300">

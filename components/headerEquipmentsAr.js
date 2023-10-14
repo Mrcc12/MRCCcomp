@@ -47,12 +47,13 @@ const Navbar = () => {
        
 
         
-       <li className='p-4 hover:text-orange-300' style={{ fontFamily: 'Raleway' }}>
-         <Link href='/بروفايل شركة ضخور المدينه للمقاولات.pdf'>ملف الشركة</Link>
-       </li>
+       
 
        <li className='p-4 hover:text-orange-300' style={{ fontFamily: 'Raleway' }}>
          <Link href='/contactAr'>اتصل بنا</Link>
+       </li>
+       <li className='p-4 hover:text-orange-300' style={{ fontFamily: 'Raleway' }}>
+         <Link href='/بروفايل شركة ضخور المدينه للمقاولات.pdf'>ملف الشركة</Link>
        </li>
        <li className='p-4 hover:text-orange-300' style={{ fontFamily: 'Raleway' }}>
          <Link href='/EquipmentsAr'>المصادر</Link>
@@ -61,7 +62,7 @@ const Navbar = () => {
          <Link href='/projectAr'>المشاريع</Link>
        </li>
        <li className='p-4 hover:text-orange-300' style={{ fontFamily: 'Raleway' }}>
-         <Link href='/abouar'>معلومات عنا</Link>
+         <Link href='/aboutar'>معلومات عنا</Link>
        </li>
        <li className='p-4 hover:text-orange-300' style={{ fontFamily: 'Raleway' }}>
          <Link href='/indexar'>الصفحة الرئيسية</Link>

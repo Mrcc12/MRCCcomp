@@ -47,12 +47,13 @@ const Navbar = () => {
        
 
         
-       <li className='p-4 hover:text-orange-300' style={{ fontFamily: 'Raleway' }}>
-         <Link href='/بروفايل شركة ضخور المدينه للمقاولات.pdf'>ملف الشركة</Link>
-       </li>
+       
 
        <li className='p-4 hover:text-orange-300' style={{ fontFamily: 'Raleway' }}>
          <Link href='/contactAr'>اتصل بنا</Link>
+       </li>
+       <li className='p-4 hover:text-orange-300' style={{ fontFamily: 'Raleway' }}>
+         <Link href='/بروفايل شركة ضخور المدينه للمقاولات.pdf'>ملف الشركة</Link>
        </li>
        <li className='p-4 hover:text-orange-300' style={{ fontFamily: 'Raleway' }}>
          <Link href='/EquipmentsAr'>المصادر</Link>

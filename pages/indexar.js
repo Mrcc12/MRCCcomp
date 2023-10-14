@@ -58,9 +58,9 @@ const Home = () => {
           <div className='textAr' >
             <h3 className='texth1'>منذ عام 2002</h3>
             <h1 className='textp'>نحن نبني الثقة</h1>
-            <p className='p2'>نحنن هنا لتلبية احتياجاتك في عالم الإنشاءات والعقارات</p>
+            <p className='p2'>شركة صخور المدينة للمقاولات  نحن هنا لتلبية احتياجاتك في عالم الإنشاءات </p>
             <div class="slider__btn">
-              <a class="htc__btn" href="/aboutar">عنا</a>
+              <a class="htc__btn" href="/aboutar">من نحن </a>
             </div>
           </div>
         </section>

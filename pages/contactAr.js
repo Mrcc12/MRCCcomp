@@ -30,18 +30,18 @@ const Contactpage = () => {
                 <section className="htc__contact__area bg__white ptb--150">
                     <div className="container">
                         <div className={`${styles.row}  pb--100`}>
-                            <div className="col-md-12">
+                            <div className="col-md-12" style={{ direction: 'rtl' }}>
                                 <div className={styles.htc__contact__inner}>
                                     <h2 className={styles.title__line5}>معلومات الاتصال</h2>
                                     <p className={styles.htc__contact__innerp}>لا تترددوا في التواصل معنا للمزيد من المعلومات والاستفسارات</p>
                                 </div>
-                                <div className={styles.htc__address__container}>
-                                    <div className={styles.ct__address}>
+                                <div className={styles.htc__address__container} style={{ direction: 'rtl' }}>
+                                    <div className={styles.ct__address} style={{ direction: 'rtl' }}>
                                         <div className={styles.ct__address__icon}>
                                             <FontAwesomeIcon icon={faMapMarker} className={styles.ct__address__icon_i} />
                                         </div>
-                                        <div className="ct__details">
-                                            <p>الرياض، المملكة العربية السعودية <br></br>   الفاروق ،الرياض، المملكةالعربية السعودية</p>
+                                        <div className="ct__details"style={{ textAlign: 'right' }}>
+                                            <p>يمكنك زياره مكان تواجدنا :<br></br>   الفاروق ،الرياض، المملكةالعربية السعودية</p>
                                         </div>
                                     </div>
 
@@ -49,8 +49,8 @@ const Contactpage = () => {
                                         <div className={styles.ct__address__icon}>
                                             <FontAwesomeIcon icon={faPhone} className={`${styles.ct__address__icon_i}`} />
                                         </div>
-                                        <div className="ct__details">
-                                            <p><a href="#"> (011) 244 8491</a></p>
+                                        <div className="ct__details"style={{ textAlign: 'right' }}>
+                                            <p><a href="#"> يمكنك الاتصال بنا على الرقم : </a></p>
                                             <p><a href="#">(011) 244 8491</a></p>
                                         </div>
                                     </div>
@@ -59,8 +59,8 @@ const Contactpage = () => {
                                         <div className={styles.ct__address__icon}>
                                             <FontAwesomeIcon icon={faGlobe} className={styles.ct__address__icon_i} />
                                         </div>
-                                        <div className="ct__details">
-                                            <p><a href="#">AARS1@HOTMAIL.COM</a></p>
+                                        <div className="ct__details"style={{ textAlign: 'right' }}>
+                                            <p><a href="#">التواصل من خلال البريد الالكتروني :</a></p>
                                             <p><a href="#">AARS1@HOTMAIL.COM</a></p>
                                         </div>
                                     </div>
@@ -68,7 +68,7 @@ const Contactpage = () => {
                             </div>
                         </div>
                         <div className={`${styles.row2}  `}>
-                            <div className="col-md-12">
+                            <div className="col-md-12" style={{ direction: 'rtl' }}>
                                 <div className={styles.htc__google__map}>
                                     <h2 className={styles.title__line5}>مكان تواجدنا</h2>
                                     <div className={styles.map__contacts}>
