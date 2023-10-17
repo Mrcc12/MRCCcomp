@@ -1,7 +1,7 @@
 import Footer from "@/components/footerar";
 import Navbar from "@/components/headerEquipmentsAr";
 import styles from "../styles/equipments.module.css";
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from "react";
 
 const Equipmentspage = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -60,13 +60,17 @@ const Equipmentspage = () => {
                   <table className={styles.tablel}>
                     <thead className={styles.thead}>
                       <tr className={styles.tr}>
-                      <th className={`${styles.thd} wpdt-fs-000018 wpdt-bc-0274BE wpdt-tc-FFFFFF`}>
+                        <th
+                          className={`${styles.thd} wpdt-fs-000018 wpdt-bc-0274BE wpdt-tc-FFFFFF`}
+                        >
                           الوصف
                         </th>
-                        <th className={`${styles.th} wpdt-fs-000018 wpdt-bc-0274BE wpdt-tc-FFFFFF`}>
+                        <th
+                          className={`${styles.th} wpdt-fs-000018 wpdt-bc-0274BE wpdt-tc-FFFFFF`}
+                        >
                           رقم
                         </th>
-                    
+
                         {/* <th className={`${styles.th} wpdt-fs-000018 wpdt-bc-0274BE wpdt-tc-FFFFFF`}>
                           الكمية
                         </th> */}
@@ -74,81 +78,111 @@ const Equipmentspage = () => {
                     </thead>
                     <tbody className={styles.tbody}>
                       <tr className={`${styles.row3_even}`}>
-                      <td className={styles.td}>كرين 100 طن</td>
+                        <td className={styles.td}>كرين 200 طن</td>
                         <td className={styles.td}>01</td>
-                       
+
                         {/* <td className={styles.td}>1</td> */}
                       </tr>
                       <tr className={`${styles.row3_odd}`}>
-                      <td className={styles.td}>كرين 70 طن</td>
+                        <td className={styles.td}>كرين 150 طن</td>
 
                         <td className={styles.td}>02</td>
                         {/* <td className={styles.td}>1</td> */}
                       </tr>
                       <tr className={`${styles.row3_even}`}>
-                      <td className={styles.td}>كرين 50 طن</td>
-
+                        <td className={styles.td}>كرين 120 طن</td>
                         <td className={styles.td}>03</td>
-                        {/* <td className={styles.td}>4</td> */}
+
+                        {/* <td className={styles.td}>1</td> */}
                       </tr>
                       <tr className={`${styles.row3_odd}`}>
-                      <td className={styles.td}>كرين 25 طن</td>
+                        <td className={styles.td}>كرين 100 طن</td>
 
                         <td className={styles.td}>04</td>
                         {/* <td className={styles.td}>1</td> */}
                       </tr>
                       <tr className={`${styles.row3_even}`}>
-                      <td className={styles.td}>شيول حفار</td>
+                        <td className={styles.td}>كرين 80 طن</td>
+                        <td className={styles.td}>05</td>
+
+                        {/* <td className={styles.td}>1</td> */}
+                      </tr>
+                      <tr className={`${styles.row3_odd}`}>
+                        <td className={styles.td}>كرين 70 طن</td>
 
                         <td className={styles.td}>06</td>
-                        {/* <td className={styles.td}>7</td> */}
-                      </tr>
-                      <tr className={`${styles.row3_odd}`}>
-                      <td className={styles.td}>بوكلين حفار و دقاق</td>
-
-                        <td className={styles.td}>05</td>
-                        {/* <td className={styles.td}>8</td> */}
+                        {/* <td className={styles.td}>1</td> */}
                       </tr>
                       <tr className={`${styles.row3_even}`}>
-                      <td className={styles.td}>شيول لودر</td>
+                        <td className={styles.td}>كرين 60 طن</td>
 
                         <td className={styles.td}>07</td>
-                        {/* <td className={styles.td}>3</td> */}
+                        {/* <td className={styles.td}>4</td> */}
                       </tr>
                       <tr className={`${styles.row3_odd}`}>
-                      <td className={styles.td}>قلاب</td>
+                        <td className={styles.td}>كرين 50 طن</td>
 
                         <td className={styles.td}>08</td>
+                        {/* <td className={styles.td}>1</td> */}
+                      </tr>
+                      <tr className={`${styles.row3_even}`}>
+                        <td className={styles.td}>كرين 30 طن</td>
+
+                        <td className={styles.td}>09</td>
+                        {/* <td className={styles.td}>1</td> */}
+                      </tr>
+                      <tr className={`${styles.row3_odd}`}>
+                        <td className={styles.td}>بوبكات</td>
+
+                        <td className={styles.td}>10</td>
+                        {/* <td className={styles.td}>7</td> */}
+                      </tr>
+                      <tr className={`${styles.row3_even}`}>
+                        <td className={styles.td}>بوكلين حفار و دقاق</td>
+
+                        <td className={styles.td}>11</td>
+                        {/* <td className={styles.td}>8</td> */}
+                      </tr>
+                      <tr className={`${styles.row3_odd}`}>
+                        <td className={styles.td}>شيول لودر</td>
+
+                        <td className={styles.td}>12</td>
                         {/* <td className={styles.td}>3</td> */}
                       </tr>
                       <tr className={`${styles.row3_even}`}>
-                      <td className={styles.td}>قصاصه اسفلت</td>
-
-                        <td className={styles.td}>09</td>
-                        {/* <td className={styles.td}>5</td> */}
-                      </tr>
-                      <tr className={`${styles.row3_odd}`}>
-                      <td className={styles.td}>فراده اسفلت</td>
-
-                        <td className={styles.td}>10</td>
-                        {/* <td className={styles.td}>2</td> */}
-                      </tr>
-                      <tr className={`${styles.row3_even}`}>
-                      <td className={styles.td}>رصاصه مختلفه</td>
-                        
-                        <td className={styles.td}>11</td>
-                        {/* <td className={styles.td}>7</td> */}
-                      </tr>
-                      <tr className={`${styles.row3_odd}`}>
-                      <td className={styles.td}>رجاج تربة</td>
-
-                        <td className={styles.td}>12</td>
-                        {/* <td className={styles.td}>2</td> */}
-                      </tr>
-                      <tr className={`${styles.row3_even}`}>
-                      <td className={styles.td}>تانك مياه سعة 14 م3</td>
+                        <td className={styles.td}>قلاب</td>
 
                         <td className={styles.td}>13</td>
+                        {/* <td className={styles.td}>3</td> */}
+                      </tr>
+                      <tr className={`${styles.row3_odd}`}>
+                        <td className={styles.td}>قصاصه اسفلت</td>
+
+                        <td className={styles.td}>14</td>
+                        {/* <td className={styles.td}>5</td> */}
+                      </tr>
+                      <tr className={`${styles.row3_even}`}>
+                        <td className={styles.td}>فراده اسفلت</td>
+
+                        <td className={styles.td}>15</td>
+                        {/* <td className={styles.td}>2</td> */}
+                      </tr>
+                      <tr className={`${styles.row3_odd}`}>
+                        <td className={styles.td}>رصاصه مختلفه</td>
+
+                        <td className={styles.td}>16</td>
+                        {/* <td className={styles.td}>7</td> */}
+                      </tr>
+                      <tr className={`${styles.row3_even}`}>
+                        <td className={styles.td}>رجاج تربة</td>
+
+                        <td className={styles.td}>17</td>
+                        {/* <td className={styles.td}>2</td> */}
+                      </tr>
+                      <tr className={`${styles.row3_odd}`}>
+                        <td className={styles.td}>تانك مياه سعة 14 م3</td>
+
+                        <td className={styles.td}>18</td>
                         {/* <td className={styles.td}>1</td> */}
                       </tr>
                     </tbody>
@@ -194,189 +228,472 @@ const Equipmentspage = () => {
           <p className={styles.title}>المعرض</p>
         </div>
         <section className={styles.gallary}>
-
-          <img className={styles.gallaryImg} style={{
-
-            transform: `perspective(600px) rotateY(${isHovered ? '10deg' : '0deg'})`,
-            transition: 'transform 0.3s ease-in-out',
-          }}
+          <img
+            className={styles.gallaryImg}
+            style={{
+              transform: `perspective(600px) rotateY(${
+                isHovered ? "10deg" : "0deg"
+              })`,
+              transition: "transform 0.3s ease-in-out",
+            }}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
-            src="/m1.png" alt="Image 1" />
-
-          <img className={styles.gallaryImg} style={{
-
-            transform: `perspective(600px) rotateY(${isHovered ? '10deg' : '0deg'})`,
-            transition: 'transform 0.3s ease-in-out',
-          }}
+            src="/m20.png"
+            alt="Image 1"
+          />
+             <img
+            className={styles.gallaryImg}
+            style={{
+              transform: `perspective(600px) rotateY(${
+                isHovered ? "10deg" : "0deg"
+              })`,
+              transition: "transform 0.3s ease-in-out",
+            }}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
-            src="/m2.png" alt="Image 1" />
-          <img className={styles.gallaryImg} style={{
-
-            transform: `perspective(600px) rotateY(${isHovered ? '10deg' : '0deg'})`,
-            transition: 'transform 0.3s ease-in-out',
-          }}
+            src="/m21.png"
+            alt="Image 1"
+          />
+             <img
+            className={styles.gallaryImg}
+            style={{
+              transform: `perspective(600px) rotateY(${
+                isHovered ? "10deg" : "0deg"
+              })`,
+              transition: "transform 0.3s ease-in-out",
+            }}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
-            src="/m3.png" alt="Image 1" />
-          <img className={styles.gallaryImg} style={{
-
-            transform: `perspective(600px) rotateY(${isHovered ? '10deg' : '0deg'})`,
-            transition: 'transform 0.3s ease-in-out',
-          }}
+            src="/m22.png"
+            alt="Image 1"
+          />
+             <img
+            className={styles.gallaryImg}
+            style={{
+              transform: `perspective(600px) rotateY(${
+                isHovered ? "10deg" : "0deg"
+              })`,
+              transition: "transform 0.3s ease-in-out",
+            }}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
-            src="/m4.png" alt="Image 1" />
-          <img className={styles.gallaryImg} style={{
-
-            transform: `perspective(600px) rotateY(${isHovered ? '10deg' : '0deg'})`,
-            transition: 'transform 0.3s ease-in-out',
-          }}
+            src="/m23.png"
+            alt="Image 1"
+          />
+             <img
+            className={styles.gallaryImg}
+            style={{
+              transform: `perspective(600px) rotateY(${
+                isHovered ? "10deg" : "0deg"
+              })`,
+              transition: "transform 0.3s ease-in-out",
+            }}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
-            src="/m5.png" alt="Image 1" />
-          <img className={styles.gallaryImg} style={{
-
-            transform: `perspective(600px) rotateY(${isHovered ? '10deg' : '0deg'})`,
-            transition: 'transform 0.3s ease-in-out',
-          }}
+            src="/m24.png"
+            alt="Image 1"
+          />
+             <img
+            className={styles.gallaryImg}
+            style={{
+              transform: `perspective(600px) rotateY(${
+                isHovered ? "10deg" : "0deg"
+              })`,
+              transition: "transform 0.3s ease-in-out",
+            }}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
-            src="/m6.png" alt="Image 1" />
-          <img className={styles.gallaryImg} style={{
-
-            transform: `perspective(600px) rotateY(${isHovered ? '10deg' : '0deg'})`,
-            transition: 'transform 0.3s ease-in-out',
+            src="/m25.png"
+            alt="Image 1"
+          />   <img
+          className={styles.gallaryImg}
+          style={{
+            transform: `perspective(600px) rotateY(${
+              isHovered ? "10deg" : "0deg"
+            })`,
+            transition: "transform 0.3s ease-in-out",
           }}
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
+          src="/m26.png"
+          alt="Image 1"
+        />   <img
+        className={styles.gallaryImg}
+        style={{
+          transform: `perspective(600px) rotateY(${
+            isHovered ? "10deg" : "0deg"
+          })`,
+          transition: "transform 0.3s ease-in-out",
+        }}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+        src="/m27.png"
+        alt="Image 1"
+      />   <img
+      className={styles.gallaryImg}
+      style={{
+        transform: `perspective(600px) rotateY(${
+          isHovered ? "10deg" : "0deg"
+        })`,
+        transition: "transform 0.3s ease-in-out",
+      }}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+      src="/m28.png"
+      alt="Image 1"
+    />   <img
+    className={styles.gallaryImg}
+    style={{
+      transform: `perspective(600px) rotateY(${
+        isHovered ? "10deg" : "0deg"
+      })`,
+      transition: "transform 0.3s ease-in-out",
+    }}
+    onMouseEnter={handleMouseEnter}
+    onMouseLeave={handleMouseLeave}
+    src="/m29.png"
+    alt="Image 1"
+  />   <img
+  className={styles.gallaryImg}
+  style={{
+    transform: `perspective(600px) rotateY(${
+      isHovered ? "10deg" : "0deg"
+    })`,
+    transition: "transform 0.3s ease-in-out",
+  }}
+  onMouseEnter={handleMouseEnter}
+  onMouseLeave={handleMouseLeave}
+  src="/m30.png"
+  alt="Image 1"
+/>   <img
+            className={styles.gallaryImg}
+            style={{
+              transform: `perspective(600px) rotateY(${
+                isHovered ? "10deg" : "0deg"
+              })`,
+              transition: "transform 0.3s ease-in-out",
+            }}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
-            src="/m7.png" alt="Image 1" />
-          <img className={styles.gallaryImg} style={{
-
-            transform: `perspective(600px) rotateY(${isHovered ? '10deg' : '0deg'})`,
-            transition: 'transform 0.3s ease-in-out',
-          }}
+            src="/m31.png"
+            alt="Image 1"
+          />
+             <img
+            className={styles.gallaryImg}
+            style={{
+              transform: `perspective(600px) rotateY(${
+                isHovered ? "10deg" : "0deg"
+              })`,
+              transition: "transform 0.3s ease-in-out",
+            }}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
-            src="/m8.png" alt="Image 1" />
-          <img className={styles.gallaryImg} style={{
-
-            transform: `perspective(600px) rotateY(${isHovered ? '10deg' : '0deg'})`,
-            transition: 'transform 0.3s ease-in-out',
+            src="/m32.png"
+            alt="Image 1"
+          />   <img
+          className={styles.gallaryImg}
+          style={{
+            transform: `perspective(600px) rotateY(${
+              isHovered ? "10deg" : "0deg"
+            })`,
+            transition: "transform 0.3s ease-in-out",
           }}
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
+          src="/m33.png"
+          alt="Image 1"
+        />
+
+          <img
+            className={styles.gallaryImg}
+            style={{
+              transform: `perspective(600px) rotateY(${
+                isHovered ? "10deg" : "0deg"
+              })`,
+              transition: "transform 0.3s ease-in-out",
+            }}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
-            src="/m9.png" alt="Image 1" />
-          <img className={styles.gallaryImg} style={{
+            src="/m1.png"
+            alt="Image 1"
+          />
 
-            transform: `perspective(600px) rotateY(${isHovered ? '10deg' : '0deg'})`,
-            transition: 'transform 0.3s ease-in-out',
-          }}
+          <img
+            className={styles.gallaryImg}
+            style={{
+              transform: `perspective(600px) rotateY(${
+                isHovered ? "10deg" : "0deg"
+              })`,
+              transition: "transform 0.3s ease-in-out",
+            }}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
-            src="/m10.png" alt="Image 1" />
-          <img className={styles.gallaryImg} style={{
-
-            transform: `perspective(600px) rotateY(${isHovered ? '10deg' : '0deg'})`,
-            transition: 'transform 0.3s ease-in-out',
-          }}
+            src="/m2.png"
+            alt="Image 1"
+          />
+          <img
+            className={styles.gallaryImg}
+            style={{
+              transform: `perspective(600px) rotateY(${
+                isHovered ? "10deg" : "0deg"
+              })`,
+              transition: "transform 0.3s ease-in-out",
+            }}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
-            src="/m11.png" alt="Image 1" />
-          <img className={styles.gallaryImg} style={{
-
-            transform: `perspective(600px) rotateY(${isHovered ? '10deg' : '0deg'})`,
-            transition: 'transform 0.3s ease-in-out',
-          }}
+            src="/m3.png"
+            alt="Image 1"
+          />
+          <img
+            className={styles.gallaryImg}
+            style={{
+              transform: `perspective(600px) rotateY(${
+                isHovered ? "10deg" : "0deg"
+              })`,
+              transition: "transform 0.3s ease-in-out",
+            }}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
-            src="/m12.png" alt="Image 1" />
-
-          <img className={styles.gallaryImg} style={{
-
-            transform: `perspective(600px) rotateY(${isHovered ? '10deg' : '0deg'})`,
-            transition: 'transform 0.3s ease-in-out',
-          }}
+            src="/m4.png"
+            alt="Image 1"
+          />
+          <img
+            className={styles.gallaryImg}
+            style={{
+              transform: `perspective(600px) rotateY(${
+                isHovered ? "10deg" : "0deg"
+              })`,
+              transition: "transform 0.3s ease-in-out",
+            }}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
-            src="/images/img1.jpg" alt="Image 1" />
-          <img className={styles.gallaryImg} style={{
-
-            transform: `perspective(600px) rotateY(${isHovered ? '10deg' : '0deg'})`,
-            transition: 'transform 0.3s ease-in-out',
-          }}
+            src="/m5.png"
+            alt="Image 1"
+          />
+          <img
+            className={styles.gallaryImg}
+            style={{
+              transform: `perspective(600px) rotateY(${
+                isHovered ? "10deg" : "0deg"
+              })`,
+              transition: "transform 0.3s ease-in-out",
+            }}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
-            src="/images/img2.jpg" alt="Image 2" />
-          <img className={styles.gallaryImg} style={{
-
-            transform: `perspective(600px) rotateY(${isHovered ? '10deg' : '0deg'})`,
-            transition: 'transform 0.3s ease-in-out',
-          }}
+            src="/m6.png"
+            alt="Image 1"
+          />
+          <img
+            className={styles.gallaryImg}
+            style={{
+              transform: `perspective(600px) rotateY(${
+                isHovered ? "10deg" : "0deg"
+              })`,
+              transition: "transform 0.3s ease-in-out",
+            }}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
-            src="/images/img3.jpg" alt="Image 3" />
-          <img className={styles.gallaryImg} style={{
-
-            transform: `perspective(600px) rotateY(${isHovered ? '10deg' : '0deg'})`,
-            transition: 'transform 0.3s ease-in-out',
-          }}
+            src="/m7.png"
+            alt="Image 1"
+          />
+          <img
+            className={styles.gallaryImg}
+            style={{
+              transform: `perspective(600px) rotateY(${
+                isHovered ? "10deg" : "0deg"
+              })`,
+              transition: "transform 0.3s ease-in-out",
+            }}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
-            src="/images/img6.jpg" alt="Image 3" />
-          <img className={styles.gallaryImg} style={{
-
-            transform: `perspective(600px) rotateY(${isHovered ? '10deg' : '0deg'})`,
-            transition: 'transform 0.3s ease-in-out',
-          }}
+            src="/m8.png"
+            alt="Image 1"
+          />
+          <img
+            className={styles.gallaryImg}
+            style={{
+              transform: `perspective(600px) rotateY(${
+                isHovered ? "10deg" : "0deg"
+              })`,
+              transition: "transform 0.3s ease-in-out",
+            }}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
-            src="https://i.pinimg.com/564x/fc/1d/fc/fc1dfc3bea02e364712df4490bbaa484.jpg" alt="Image 3" />
-          <img className={styles.gallaryImg} style={{
-
-            transform: `perspective(600px) rotateY(${isHovered ? '10deg' : '0deg'})`,
-            transition: 'transform 0.3s ease-in-out',
-          }}
+            src="/m9.png"
+            alt="Image 1"
+          />
+          <img
+            className={styles.gallaryImg}
+            style={{
+              transform: `perspective(600px) rotateY(${
+                isHovered ? "10deg" : "0deg"
+              })`,
+              transition: "transform 0.3s ease-in-out",
+            }}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
-            src="https://i.pinimg.com/564x/d2/2e/cf/d22ecfef0746678ff6fbe39007420839.jpg" alt="Image 2" />
-          <img className={styles.gallaryImg} style={{
-
-            transform: `perspective(600px) rotateY(${isHovered ? '10deg' : '0deg'})`,
-            transition: 'transform 0.3s ease-in-out',
-          }}
+            src="/m10.png"
+            alt="Image 1"
+          />
+          <img
+            className={styles.gallaryImg}
+            style={{
+              transform: `perspective(600px) rotateY(${
+                isHovered ? "10deg" : "0deg"
+              })`,
+              transition: "transform 0.3s ease-in-out",
+            }}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
-            src="/images/img4.jpg" alt="Image 1" />
-
-
-          <img className={styles.gallaryImg} style={{
-
-            transform: `perspective(600px) rotateY(${isHovered ? '10deg' : '0deg'})`,
-            transition: 'transform 0.3s ease-in-out',
-          }}
+            src="/m11.png"
+            alt="Image 1"
+          />
+          <img
+            className={styles.gallaryImg}
+            style={{
+              transform: `perspective(600px) rotateY(${
+                isHovered ? "10deg" : "0deg"
+              })`,
+              transition: "transform 0.3s ease-in-out",
+            }}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
-            src="/images/img5.jpg" alt="Image 2" />
+            src="/m12.png"
+            alt="Image 1"
+          />
 
-
-          <img className={styles.gallaryImg} style={{
-
-            transform: `perspective(600px) rotateY(${isHovered ? '10deg' : '0deg'})`,
-            transition: 'transform 0.3s ease-in-out',
-          }}
+          <img
+            className={styles.gallaryImg}
+            style={{
+              transform: `perspective(600px) rotateY(${
+                isHovered ? "10deg" : "0deg"
+              })`,
+              transition: "transform 0.3s ease-in-out",
+            }}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
-            src="https://i.pinimg.com/564x/1e/ca/bf/1ecabf935233683f3803c0042bcf1837.jpg" alt="Image 3" />
-          <img className={styles.gallaryImg} style={{
-
-            transform: `perspective(600px) rotateY(${isHovered ? '10deg' : '0deg'})`,
-            transition: 'transform 0.3s ease-in-out',
-          }}
+            src="/images/img1.jpg"
+            alt="Image 1"
+          />
+          <img
+            className={styles.gallaryImg}
+            style={{
+              transform: `perspective(600px) rotateY(${
+                isHovered ? "10deg" : "0deg"
+              })`,
+              transition: "transform 0.3s ease-in-out",
+            }}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
-            src="https://i.pinimg.com/564x/88/dc/5d/88dc5d678b1ae37855e43b893d9bc177.jpg" alt="Image 3" />
+            src="/images/img2.jpg"
+            alt="Image 2"
+          />
+          <img
+            className={styles.gallaryImg}
+            style={{
+              transform: `perspective(600px) rotateY(${
+                isHovered ? "10deg" : "0deg"
+              })`,
+              transition: "transform 0.3s ease-in-out",
+            }}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+            src="/images/img3.jpg"
+            alt="Image 3"
+          />
+          <img
+            className={styles.gallaryImg}
+            style={{
+              transform: `perspective(600px) rotateY(${
+                isHovered ? "10deg" : "0deg"
+              })`,
+              transition: "transform 0.3s ease-in-out",
+            }}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+            src="/images/img6.jpg"
+            alt="Image 3"
+          />
+          <img
+            className={styles.gallaryImg}
+            style={{
+              transform: `perspective(600px) rotateY(${
+                isHovered ? "10deg" : "0deg"
+              })`,
+              transition: "transform 0.3s ease-in-out",
+            }}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+            src="https://i.pinimg.com/564x/fc/1d/fc/fc1dfc3bea02e364712df4490bbaa484.jpg"
+            alt="Image 3"
+          />
+          <img
+            className={styles.gallaryImg}
+            style={{
+              transform: `perspective(600px) rotateY(${
+                isHovered ? "10deg" : "0deg"
+              })`,
+              transition: "transform 0.3s ease-in-out",
+            }}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+            src="https://i.pinimg.com/564x/d2/2e/cf/d22ecfef0746678ff6fbe39007420839.jpg"
+            alt="Image 2"
+          />
+          <img
+            className={styles.gallaryImg}
+            style={{
+              transform: `perspective(600px) rotateY(${
+                isHovered ? "10deg" : "0deg"
+              })`,
+              transition: "transform 0.3s ease-in-out",
+            }}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+            src="/images/img4.jpg"
+            alt="Image 1"
+          />
+
+          <img
+            className={styles.gallaryImg}
+            style={{
+              transform: `perspective(600px) rotateY(${
+                isHovered ? "10deg" : "0deg"
+              })`,
+              transition: "transform 0.3s ease-in-out",
+            }}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+            src="/images/img5.jpg"
+            alt="Image 2"
+          />
+
+          <img
+            className={styles.gallaryImg}
+            style={{
+              transform: `perspective(600px) rotateY(${
+                isHovered ? "10deg" : "0deg"
+              })`,
+              transition: "transform 0.3s ease-in-out",
+            }}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+            src="https://i.pinimg.com/564x/1e/ca/bf/1ecabf935233683f3803c0042bcf1837.jpg"
+            alt="Image 3"
+          />
+          <img
+            className={styles.gallaryImg}
+            style={{
+              transform: `perspective(600px) rotateY(${
+                isHovered ? "10deg" : "0deg"
+              })`,
+              transition: "transform 0.3s ease-in-out",
+            }}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+            src="https://i.pinimg.com/564x/88/dc/5d/88dc5d678b1ae37855e43b893d9bc177.jpg"
+            alt="Image 3"
+          />
           {/* Add more images as needed */}
         </section>
       </main>

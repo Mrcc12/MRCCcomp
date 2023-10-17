@@ -5,10 +5,10 @@ import styles from '../styles/client.module.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 const teamMembers = [
-    // {
-    //     name: 'وزارة المياه والكهرباء',
-    //     image: 'https://al-ayuni.com/wp-content/uploads/2018/05/mowe-logo.jpg',
-    // },
+    {
+        name: 'شركة الفنار',
+        image: 'https://www.logolynx.com/images/logolynx/27/27b0f016d6b2c7a260864d28e93bc68c.jpeg',
+    },
     {
         name: 'الإدارة العامة للمياه - منطقة الرياض',
         image: 'https://th.bing.com/th/id/OIP.sXcUPmrkujAyla6_pgKr0gHaFj?pid=ImgDet&rs=1',
@@ -19,7 +19,7 @@ const teamMembers = [
     },
     {
         name: 'الشركة الوطنية للمياه',
-        image: 'https://rjeem.com/wp-content/uploads/2020/07/%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B9%D9%84%D8%A7%D9%85-%D8%B9%D9%86-%D9%81%D8%A7%D8%AA%D9%88%D8%B1%D8%A9-%D8%B4%D8%B1%D9%83%D8%A9-%D8%A7%D9%84%D9%85%D9%8A%D8%A7%D9%87.jpg',
+        image: 'https://th.bing.com/th/id/R.8efed251b66a0f717ff4fca73fb112f0?rik=6rnxRDNYKvB9GQ&riu=http%3a%2f%2falkhorayef.com%2fUploads%2fPartners%2f2015013021290961220140626112433811_________________.jpg&ehk=BVsZXS2DdpH3eObQMbNzWvBgEe98xgM9Y%2bF2Byk3Iqc%3d&risl=&pid=ImgRaw&r=0',
     },
     {
         name: 'أمانة العيينة والجبيلية',
@@ -38,7 +38,7 @@ const ClientPage2 = () => {
             </div>
             <div style={{ padding: '10px', marginTop: '10px', }} className={styles.contain}>
                 <div id='about' className="flex items-center justify-center ">
-                    <div className="grid grid-cols-1 gap-3 lg:grid-cols-4" >
+                    <div className="grid grid-cols-1 gap-3 lg:grid-cols-5" >
                         {teamMembers.map((member, index) => (
                             <div key={index} className="relative items-center justify-center" >
                                 <div className={styles.clientDiv}>

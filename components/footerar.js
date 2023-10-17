@@ -126,7 +126,8 @@ function Footer() {
               الرياض، المملكة العربية السعودية
             </li>
             <li className="pb-2 font-semibold text-white cursor-pointer text-md hover:text-orange-300">
-            011-244-8491 : الهاتف
+            011-471-3189 : الهاتف
+            <br></br>050-448-7221
             </li>
             <li className="pb-2 font-semibold text-white cursor-pointer text-md hover:text-orange-300">
               AARS1@HOTMAIL.COM : البريد الإلكتروني

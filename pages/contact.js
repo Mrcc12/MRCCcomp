@@ -60,7 +60,8 @@ const Contactpage = () => {
                                         </div>
                                         <div className="ct__details">
                                         <p><a href="#">You can contact us at the following number: </a></p>
-                                            <p><a href="#">(011) 244 8491</a></p>
+                                            <p><a href="#">(011) 4713189</a></p>
+                                            <p><a href="#">(050) 4487221</a></p>
                                         </div>
                                     </div>
 

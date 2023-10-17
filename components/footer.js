@@ -127,8 +127,7 @@ function Footer() {
               Riyadh, Saudi Arabia
             </li>
             <li className="pb-2 font-semibold text-white cursor-pointer text-md hover:text-orange-300">
-              Phone: 011-244-8491
-            </li>
+              Phone: 011-471-3189 <br></br>050-488-7221            </li>
             <li className="pb-2 font-semibold text-white cursor-pointer text-md hover:text-orange-300">
               Email: AARS1@HOTMAIL.COM
             </li>

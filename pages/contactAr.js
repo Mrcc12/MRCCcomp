@@ -51,7 +51,8 @@ const Contactpage = () => {
                                         </div>
                                         <div className="ct__details"style={{ textAlign: 'right' }}>
                                             <p><a href="#"> يمكنك الاتصال بنا على الرقم : </a></p>
-                                            <p><a href="#">(011) 244 8491</a></p>
+                                            <p ><a href="#">011-471-3189</a></p>
+                                            <p><a href="#">050-448-7221</a></p>
                                         </div>
                                     </div>
 
