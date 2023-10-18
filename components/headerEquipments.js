@@ -38,7 +38,7 @@ const Navbar = () => {
     >
       <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-white'>
         <Link href='/'>
-        <img style={{width:"90px",height:"90px"}} src="/logocompany.png" alt="logo" />
+        <img style={{width:"150px",height:"90px"}} src="/logocompany.png" alt="logo" />
         </Link>
         <ul style={{ color: `${textColor}` }} className='hidden sm:flex'>
           <li className='p-4 hover:text-orange-300' style={{ fontFamily: 'Raleway' }}>

@@ -44,7 +44,7 @@ const Navbar = () => {
           {/* <h1 style={{ color: `${textColor}` }} className='text-4xl font-bold'>
           MRCC
           </h1> */}
-        <img style={{width:"90px",height:"90px"}} src="/logocompany.png" alt="logo" />
+        <img style={{width:"150px",height:"90px"}} src="/logocompany.png" alt="logo" />
         </Link>
         <ul style={{ color: `${textColor}` }} className='hidden sm:flex'>
           <li className='p-4 hover:text-orange-300' style={{    fontFamily: 'Raleway'}}>
