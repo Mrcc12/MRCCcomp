@@ -107,7 +107,7 @@
 }
 .textAr{
   position: absolute;
-  transform: translate(15%, 60%);
+  transform: translate(0%, 60%);
   /* font-size: 20px; */
   text-align: center;
   color: white;

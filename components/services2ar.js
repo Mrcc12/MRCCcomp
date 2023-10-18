@@ -38,7 +38,7 @@ const ClientPage2 = () => {
             </div>
             <div style={{ padding: '10px', marginTop: '10px', }} className={styles.contain}>
                 <div id='about' className="flex items-center justify-center ">
-                    <div className="grid grid-cols-1 gap-3 lg:grid-cols-5" >
+                    <div className="grid grid-cols-1 gap-2 lg:grid-cols-5" >
                         {teamMembers.map((member, index) => (
                             <div key={index} className="relative items-center justify-center" >
                                 <div className={styles.clientDiv}>
