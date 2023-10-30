@@ -62,7 +62,7 @@ function Footer() {
               <Link href='/project'>Project</Link>
             </li>
             <li className="pb-2 font-semibold text-white cursor-pointer text-md hover:text-orange-300">
-              <Link href='/resources'>Resources</Link>
+              <Link href='/Equipments'>Gallary</Link>
             </li>
             <li className="pb-2 font-semibold text-white cursor-pointer text-md hover:text-orange-300">
               <Link href='/contact'>Contact</Link>

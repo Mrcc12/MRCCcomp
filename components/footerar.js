@@ -61,7 +61,7 @@ function Footer() {
               <Link href='/project'>مشاريعنا</Link>
             </li>
             <li className="pb-2 font-semibold text-white cursor-pointer text-md hover:text-orange-300">
-              <Link href='/resources'>معداتنا </Link>
+              <Link href='/Equipments'>معداتنا </Link>
             </li>
             <li className="pb-2 font-semibold text-white cursor-pointer text-md hover:text-orange-300">
               <Link href='/contact'>اتصل بنا </Link>
