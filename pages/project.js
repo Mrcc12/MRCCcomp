@@ -145,11 +145,11 @@ const teamMembers = [
     major: "Location: Wadi Dawasir",
     image: "/أعوال اإلًشاءاث فٍ هبًٌ هحطت الضخ فٍ أم سوشة.png",
   },
-  {
-    name: "Image in Wadi Dawasir/City of Umm Sumra showing the extension work from the underground tank to the pumping station in Umm Sumra",
-    major: "Location: Wadi Dawasir.",
-    image: "/water.jpg",
-  },
+  // {
+  //   name: "Image in Wadi Dawasir/City of Umm Sumra showing the extension work from the underground tank to the pumping station in Umm Sumra",
+  //   major: "Location: Wadi Dawasir.",
+  //   image: "/water.jpg",
+  // },
   {
     name: "Image in Wadi Dawasir/City of Umm Sumra showing finishing of the Umm Sumra pumping station building",
     major: "Location: Wadi Dawasir",
