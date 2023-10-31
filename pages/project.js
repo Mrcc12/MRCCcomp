@@ -8,22 +8,22 @@ const teamMembers = [
   {
     name: "Image showing insulation work of the upper 1500 m3 tank base in Shurafa",
     major: "Location: Wadi Dawasir.",
-    image: "/قواعد.jpeg",
+    image: "/mm1.jpeg",
   },
   {
     name: "Image showing iron reinforcement work for the upper 1500m3 tank",
     major: "Location: Wadi Dawasir.",
-    image: "/تسليح.jpeg",
+    image: "/mm2.jpeg",
   },
   {
     name: 'Carpentry work to tighten the upper tank',
     major: "Location: Wadi Dawasir.",
-    image: "/نجاره.jpeg",
+    image: "/mm3.jpeg",
   },
   {
     name: "Image in Wadi Dawasir/City of Shurafa showing concrete pouring work for the upper tank roof in Shurafa",
     major: "Location: Wadi Dawasir",
-    image: "/دروة سطح الخزاى العلىي.png",
+    image: "/mm4.png",
   },
   {
     name: "Image in Wadi Dawasir/City of Shurafa showing construction work on the Shurafa upper tank of 1500m3",
@@ -33,123 +33,119 @@ const teamMembers = [
   {
     name: "Image in Wadi Dawasir/City of Shurafa showing exterior painting work and logo writing on the Shurafa tank",
     major: "Location: Wadi Dawasir",
-    image: "/دهان.jpeg",
+    image: "/mm5.jpeg",
   },
   {
     name: "Image in Wadi Dawasir/City of Shurafa showing the overall shape of the Shurafa upper tank after removing wooden tension",
     major: "Location: Wadi Dawasir",
-    image: "/فك الشدة الخشبية.jpg",
+    image: "/mm6.jpg",
   },
   {
     name: "Image in Wadi Dawasir/City of Shurafa showing tree planting around the 1500m3 upper tank area",
     major: "Location: Wadi Dawasir",
-    image: "/دواسي.jpg",
+    image: "/mm7.jpg",
   },
   {
     name: "Image showing the upper 1500m3 tank in Shurafa",
     major: "Location: Wadi Dawasir",
-    image: "/الخزان العلوي 1500م 3 بالشرافا.png",
+    image: "/mm8.png",
   },
   {
     name: "Image showing barbed wire installation at the Shurafa site",
     major: "Location: Wadi Dawasir.",
-    image: "/شيك.jpg",
+    image: "/mm9.jpg",
   },
   {
     name: "Upper tank work in Dawasir",
     major: "Location: Wadi Dawasir.",
-    image: "/علوي.jpeg",
+    image: "/mm10.jpeg",
   },
   {
     name: "Image in Wadi Dawasir/City of Umm Sumra showing concrete pouring work for the walls of the upper 500m3 tank",
     major: "Location: Wadi Dawasir",
-    image: "/صب خزساًت فٍ جذراى حلت.png",
+    image: "/mm11.png",
   },
   {
     name: "Image in Wadi Dawasir/City of Umm Sumra showing construction work on the walkway on top of the upper Umm Sumra tank.",
     major: "Location: Wadi Dawasir",
-    image: "/اإلًشاءاث فٍ الوشاَت فٍ أعلً خزاى أم سوزة.png",
+    image: "/mm12.png",
   },
   {
     name: "Image showing concrete pouring with a special concrete pump for the first batch of the 500m3 upper tank walls",
     major: "Location: Wadi Dawasir.",
-    image: "/خز.jpg",
+    image: "/mm13.jpg",
   },
   {
     name: "Image in Wadi Dawasir/City of Umm Sumra showing finishing and marble cladding of the upper tank in Umm Sumra",
     major: "Location: Wadi Dawasir",
-    image: "/تشطيب واجهات الخزان العلوى بكسر الرخام في أم.png",
+    image: "/mm14.png",
   },
   {
     name: "Image showing epoxy insulation work for the Umm Sumra underground tank",
     major: "Location: Wadi Dawasir.",
-    image: "/دوامي3.jpg",
+    image: "/mm15.jpg",
   },
   {
     name: "Image in Wadi Dawasir/City of Umm Sumra showing leakage testing in the Umm Sumra upper tank",
     major: "Location: Wadi Dawasir.",
-    image: "/دوادمي2.jpg",
+    image: "/mm16.jpg",
   },
   {
     name: "Image in Wadi Dawasir/City of Umm Sumra showing the general shape of the Umm Sumra upper tank",
     major: "Location: Wadi Dawasir.",
-    image: "/خزان علوي ام سمرة.jpg",
+    image: "/mm17.jpg",
   },
   {
     name: "Image in Wadi Dawasir/City of Umm Sumra showing thermal insulation work on the upper ground tank in Umm Sumra",
     major: "Location: Wadi Dawasir",
-    image: "/مضلات.jpg",
+    image: "/mm18.jpg",
   },
   {
     name: "Excavation of the foundations of an underground tank",
     major: "Location: Al-Dawadmi area.",
-    image: "/قواعدخزان.jpeg",
+    image: "/mm19.jpeg",
   },
   {
     name: "Reinforcement work for an underground tank",
     major: "Location: Al-Dawadmi area.",
-    image: "/جيزان2.jpeg",
+    image: "/mm20.jpeg",
   },
   {
     name: "Project initiation for the construction of an underground tank.",
     major: "Location: Al-Dawadmi area.",
-    image: "ارضي.jpg",
+    image: "mm21.jpg",
   },
   {
     name: "Image showing the installation of a ladder inside the tank",
     major: "Location: Al-Dawadmi area.",
-    image: "سلم.jpg",
+    image: "mm22.jpg",
   },
   {
     name: "Reinforcement work for an underground tank",
     major: "Location: Jazan area",
-    image: "/جيزان.jpeg",
+    image: "/mm23.jpeg",
   },
   {
     name: "Ordinary concrete casting work for the underground tank",
     major: "Location: Jazan area",
-    image: "/خرسانه.jpeg",
+    image: "/mm24.jpeg",
   },
   {
     name: "Isolation work for the walls of the underground tank",
     major: "Location: Jazan area",
-    image: "/عزل.jpeg",
+    image: "/mm25.jpeg",
   },
   {
     name: "Image in Wadi Dawasir/City of Umm Sumra showing concrete pouring work for the foundations of the pumping station",
     major: "Location: Wadi Dawasir",
-    image: "/أعمال صب الخرسانة في أساسات محطة الضخ.png",
+    image: "/mm26.png",
   },
   {
     name: "Image in Wadi Dawasir/City of Umm Sumra showing construction work in the pumping station building in Umm Sumra",
     major: "Location: Wadi Dawasir",
-    image: "/أعوال اإلًشاءاث فٍ هبًٌ هحطت الضخ فٍ أم سوشة.png",
+    image: "/mm27.png",
   },
-  // {
-  //   name: "Image in Wadi Dawasir/City of Umm Sumra showing the extension work from the underground tank to the pumping station in Umm Sumra",
-  //   major: "Location: Wadi Dawasir.",
-  //   image: "/water.jpg",
-  // },
+  
   {
     name: "Image in Wadi Dawasir/City of Umm Sumra showing finishing of the Umm Sumra pumping station building",
     major: "Location: Wadi Dawasir",
@@ -158,12 +154,12 @@ const teamMembers = [
   {
     name: "Image in Wadi Dawasir/City of Umm Sumra showing the pumping station building in Umm Sumra",
     major: "Location: Wadi Dawasir",
-    image: "/مبنى محطة الضخ بأم سمرة.png",
+    image: "/mm28.png",
   },
   {
     name: "Image in Wadi Dawasir/City of Umm Sumra showing the sub-base works for the Umm Sumra ground tank and the thickness compaction layer",
     major: "Location: Wadi Dawasir",
-    image: "/رصيف خزان أرضى أم سمرة ودمك طبقة.png",
+    image: "/mm29.png",
   },
   {
     name: "Image showing the installation of pumps in the pumping station building",
@@ -173,17 +169,17 @@ const teamMembers = [
   {
     name: "Image showing the installation of discharge lines from the pumps",
     major: "Location: Wadi Dawasir.",
-    image: "/الطرد.jpeg",
+    image: "/mm30.jpeg",
   },
   {
     name: "Soil testing work",
     major: "Location: Al-Dawadmi area.",
-    image: "/تربه.jpeg",
+    image: "/mm31.jpeg",
   },
   {
     name: "Asphalting work for the Dawadmi project",
     major: "Location: Al-Dawadmi area.",
-    image: "/زفته.jpeg",
+    image: "/mm32.jpeg",
   },
   {
     name: "Renovation of the fifth primary school and the second secondary school in Majmaah",
@@ -199,77 +195,77 @@ const teamMembers = [
   {
     name: "Flood control and risk prevention in Al-Oyayna and Al-Jubailiya",
     major: "Location: Northern Borders region.",
-    image: "1مشروع.jpg",
+    image: "mm33.jpg",
   },
   {
     name: "Installation of stairs in the underground tank",
     major: "Location: Wadi Dawasir.",
-    image: "/سلم2.jpeg",
+    image: "/mm34.jpeg",
   },
   {
     name: "Installation of stairs in the underground tank",
     major: "Location: Wadi Dawasir.",
-    image: "/سلم3.jpeg",
+    image: "/mm35.jpeg",
   },
   {
     name: "Image in Wadi Dawasir/City of Shurafa showing the installation of the irrigation pump and its connections above the underground tank in Shurafa",
     major: "Location: Wadi Dawasir.",
-    image: "/دوادمي1.jpg",
+    image: "/mm36.jpg",
   },
   {
     name: "Image in Wadi Dawasir/City of Shurafa showing masonry work for the pumping station building",
     major: "Location: Wadi Dawasir",
-    image: "/أعمال لیاسة مبنى محطة الضخ.png",
+    image: "/mm37.png",
   },
   {
     name: "Image in Wadi Dawasir/City of Shurafa showing interior painting work for the pumping station building",
     major: "Location: Wadi Dawasir",
-    image: "/أعوال الذهاًاث الذاخلُت لوبًٌ هحطت الضخ..png",
+    image: "/mm38.png",
   },
   {
     name: "Image in Wadi Dawasir/City of Shurafa showing fuel pump and its protective cage",
     major: "Location: Wadi Dawasir",
-    image: "/مضخة الوقود وقفص حماية له.png",
+    image: "/mm39.png",
   },
   {
     name: "Image in Wadi Dawasir/City of Umm Sumra showing epoxy insulation work in the Umm Sumra underground tank",
     major: "Location: Wadi Dawasir",
-    image: "/أعمال العزل بااليبوكسى في الخزان األرضي.png",
+    image: "/mm40.png",
   },
   {
     name: "Image in Wadi Dawasir/City of Shurafa showing the tile of the ground tank in Shurafa",
     major: "Location: Wadi Dawasir",
-    image: "/بلاط سطح الخزان الأرضى بالشرافا..png",
+    image: "/mm41.png",
   },
   {
     name: "Image in Wadi Dawasir/City of Umm Sumra showing the statement panel for the 400mm duct line",
     major: "Location: Wadi Dawasir",
-    image: "/لوحة البيان لخط الدكتايل قطر 400 مم. .png",
+    image: "/mm42.png",
   },
   {
     name: "Image in Wadi Dawasir/City of Shurafa showing the column and statement panel for the 250mm duct line",
     major: "Location: Wadi Dawasir",
-    image: "/عمود ولوحة البيان لخط الدكتايل قطر 250مم.png",
+    image: "/mm43.png",
   },
   {
     name: "Image in Wadi Dawasir/City of Shurafa showing the general site in Shurafa after completing asphalt work",
     major: "Location: Wadi Dawasir",
-    image: "/الموقع العام بالشرافا بعد انتهاء اعمال االسفلت..png",
+    image: "/mm44.png",
   },
   {
     name: "Execution of water tanks and networks for Group 9/7 - Contract No. [1]",
     major: "Location: Najran region.",
-    image: "/فيضان.jpg",
+    image: "/mm45.jpg",
   },
   {
     name: "Execution of water tanks and networks for Group 9/6 - Contract No. [2]",
     major: "Location: Najran region.",
-    image: "/خزان2.jpg",
+    image: "/mm46.jpg",
   },
   {
     name: "Image in Wadi Dawasir/City of Umm Sumra showing the installation of electrical panels in the pumping station",
     major: "Location: Wadi Dawasir",
-    image: "/تركيب لوحات الكهرباء في مبنى الضخ..png",
+    image: "/mm47.png",
   },
 ];
 const Projectpage = () => {
